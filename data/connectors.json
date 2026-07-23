@@ -15,7 +15,16 @@
   "legacy": "No",
   "notes": "Top-entry latch on header; do not confuse with VH (3.96mm pitch). Very common in consumer electronics.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.5,
+   "pinMin": 2,
+   "pinMax": 20,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "JST VH",
@@ -33,7 +42,16 @@
   "legacy": "No",
   "notes": "Larger pitch sibling of XH; used where higher current needed on PCB.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 3.96,
+   "pinMin": 2,
+   "pinMax": 16,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "JST PH",
@@ -51,7 +69,16 @@
   "legacy": "No",
   "notes": "De facto standard for small LiPo balance leads and compact electronics.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.0,
+   "pinMin": 2,
+   "pinMax": 16,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "JST SH",
@@ -69,7 +96,16 @@
   "legacy": "No",
   "notes": "1mm pitch; confused with GH visually. SH is shorter mating height than GH.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.0,
+   "pinMin": 2,
+   "pinMax": 20,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "JST GH",
@@ -87,7 +123,16 @@
   "legacy": "No",
   "notes": "Pixhawk standard. Looks like SH but 1.25mm pitch and has a more prominent latch. Not interchangeable with SH.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.25,
+   "pinMin": 2,
+   "pinMax": 12,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "JST ZH",
@@ -105,7 +150,16 @@
   "legacy": "No",
   "notes": "Smallest common JST series; fragile, not for repeated mating.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.5,
+   "pinMin": 2,
+   "pinMax": 13,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "JST SM",
@@ -123,7 +177,16 @@
   "legacy": "No",
   "notes": "Wire-to-wire variant; common in LED lighting and consumer appliance harnesses.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.5,
+   "pinMin": 2,
+   "pinMax": 26,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "JST RCY",
@@ -141,7 +204,9 @@
   "legacy": "No",
   "notes": "2-pin only; ubiquitous in RC hobby and toy battery connections.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Molex KK 254",
@@ -159,7 +224,16 @@
   "legacy": "No",
   "notes": "Classic 0.1\" pitch; often called generic 'Molex connector' in hobbyist context.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.54,
+   "pinMin": 2,
+   "pinMax": 36,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Molex Micro-Fit 3.0",
@@ -177,7 +251,16 @@
   "legacy": "No",
   "notes": "Dual-row; gold or tin contacts. Basis of ATX12V CPU and GPU power connectors.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 3.0,
+   "pinMin": 2,
+   "pinMax": 24,
+   "rows": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Molex Mini-Fit Jr.",
@@ -195,7 +278,16 @@
   "legacy": "No",
   "notes": "The ATX 24-pin motherboard connector is this family. Very robust for board-level power.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 4.2,
+   "pinMin": 2,
+   "pinMax": 44,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Molex Nano-Fit",
@@ -213,7 +305,16 @@
   "legacy": "No",
   "notes": "Smaller profile than Micro-Fit; good for dense PCB layouts.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.5,
+   "pinMin": 2,
+   "pinMax": 16,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "XT30",
@@ -231,7 +332,13 @@
   "legacy": "No",
   "notes": "Gold-plated bullet contacts. Nylon housing. Polarized to prevent reverse connection.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "blade",
+   "pins": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "XT60",
@@ -249,7 +356,13 @@
   "legacy": "No",
   "notes": "Industry standard for mid-power RC/drone. XT60H variant has housing cap for unused side.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "blade",
+   "pins": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "XT90",
@@ -267,7 +380,13 @@
   "legacy": "No",
   "notes": "Anti-spark variant (XT90-S) has built-in resistor for pre-charge. Used in DIY EV and BESS.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "blade",
+   "pins": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Anderson Powerpole (15/30/45)",
@@ -285,7 +404,13 @@
   "legacy": "No",
   "notes": "Genderless; color-coded by circuit. ARES/RACES standard for emergency comms. Stackable to any pin count.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "blade",
+   "pins": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Anderson SB50",
@@ -303,7 +428,9 @@
   "legacy": "No",
   "notes": "Color-coded by voltage (red=24V, gray=36V, blue=48V). Heavy-duty industrial standard.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Anderson SB120 / SB175 / SB350",
@@ -321,7 +448,9 @@
   "legacy": "No",
   "notes": "Same keyed-color system as SB50. SB350 used in large BESS interconnects and EV traction battery service disconnects.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DC Barrel Jack (5.5x2.1mm)",
@@ -339,7 +468,9 @@
   "legacy": "No",
   "notes": "Most common size is 5.5x2.1mm. Center-positive is convention but NOT universal — verify polarity. EIAJ standard sizes exist but many are non-standard.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DC Barrel Jack (5.5x2.5mm)",
@@ -357,7 +488,9 @@
   "legacy": "No",
   "notes": "Looks identical to 2.1mm but won't seat properly — common source of intermittent power failures.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "2.1mm Locking DC Barrel (Switchcraft/Kycon)",
@@ -375,7 +508,9 @@
   "legacy": "No",
   "notes": "Prevents accidental disconnection. Switchcraft S760/S761 series common in pro audio.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Tamiya / Mini-Tamiya",
@@ -393,7 +528,9 @@
   "legacy": "Partial legacy",
   "notes": "Being replaced by XT series in RC hobby. High contact resistance at higher currents. Mini-Tamiya common in airsoft.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Deans Ultra (T-Plug)",
@@ -411,7 +548,13 @@
   "legacy": "Partial legacy",
   "notes": "Largely replaced by XT60 in drone/RC. Genuine Deans vs clones differ in contact quality.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "blade",
+   "pins": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "EC3 / EC5",
@@ -429,7 +572,13 @@
   "legacy": "No",
   "notes": "Bullet-style like XT but different housing. EC5 used in high-current e-bike and large RC applications.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "blade",
+   "pins": 3
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Wurth/Phoenix Pluggable PCB Terminal Block",
@@ -447,7 +596,16 @@
   "legacy": "No",
   "notes": "Not just terminal blocks — pluggable variants allow field wiring without soldering. Green/orange Phoenix, blue Wago standard colors.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 3.5,
+   "pinMin": 2,
+   "pinMax": 24,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Wago 221 Lever Nut",
@@ -465,7 +623,9 @@
   "legacy": "No",
   "notes": "Transparent body for visual wire verification. Replacing traditional wire nuts globally. Not suitable for stranded wire without ferrules.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Wago 2060/2061 PCB SMD",
@@ -483,7 +643,16 @@
   "legacy": "No",
   "notes": "SMD-mountable push-in connector. Designed for automated PCB assembly in lighting industry.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 4.0,
+   "pinMin": 1,
+   "pinMax": 3,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Ferrule / Bootlace Ferrule",
@@ -501,7 +670,9 @@
   "legacy": "No",
   "notes": "Not a connector per se but mandatory wire termination for European/Indian panel wiring. Color-coded by wire gauge (DIN standard).",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ATX 24-pin Main Power",
@@ -519,7 +690,16 @@
   "legacy": "No",
   "notes": "Based on Molex Mini-Fit Jr. 20-pin legacy + 4-pin auxiliary. Keyed to prevent mis-insertion.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 4.2,
+   "pinMin": 24,
+   "pinMax": 4,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ATX EPS 4/8-pin CPU Power",
@@ -537,7 +717,16 @@
   "legacy": "No",
   "notes": "Do not confuse 8-pin CPU (4+4) with 8-pin PCIe (6+2). Different keying.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 3.0,
+   "pinMin": 4,
+   "pinMax": 4,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "PCIe 6-pin / 8-pin / 12+4 (12VHPWR)",
@@ -555,7 +744,16 @@
   "legacy": "6-pin/8-pin: becoming legacy",
   "notes": "12VHPWR (ATX 3.0) replaces multiple 8-pin. Had early melting issues — ensure proper seating. 12V-2x6 is refined successor.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 3.0,
+   "pinMin": 6,
+   "pinMax": 4,
+   "rows": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SATA Power",
@@ -573,7 +771,16 @@
   "legacy": "Becoming legacy",
   "notes": "3.3V rail rarely used. L-key prevents reverse insertion. Molex-to-SATA adapters are fire hazards (molded type).",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.27,
+   "pinMin": 15,
+   "pinMax": 15,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Molex 4-pin Peripheral (Legacy)",
@@ -591,7 +798,9 @@
   "legacy": "Yes — Legacy",
   "notes": "Being phased out. Still found in fan adapters and older power supplies. Tight fit causes connector damage.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Floppy 4-pin (Berg)",
@@ -609,7 +818,16 @@
   "legacy": "Yes — Legacy",
   "notes": "Nearly extinct outside retro computing.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.54,
+   "pinMin": 4,
+   "pinMax": 4,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Banana Plug / Socket (4mm)",
@@ -627,7 +845,16 @@
   "legacy": "No",
   "notes": "Shrouded (safety) banana mandatory in EU for lab equipment. 4mm is universal; 2mm exists for lower current.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "header",
+   "pitch": 19.05,
+   "pinMin": 1,
+   "pinMax": 1,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "PP30 / PP75 / PP120 (Powerpole)",
@@ -645,7 +872,13 @@
   "legacy": "No",
   "notes": "Larger siblings of PP15/30/45. Used in serious solar and BESS installations.",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "geom": {
+   "draw": "blade",
+   "pins": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Faston / Quick-Connect (6.3mm / 4.8mm / 2.8mm)",
@@ -663,7 +896,9 @@
   "legacy": "No",
   "notes": "6.3mm most common in appliances. Insulated variants color-coded by wire gauge (red=22-18, blue=16-14, yellow=12-10 AWG).",
   "category": "Power",
-  "subcategory": "1A — LOW VOLTAGE DC (≤48V)"
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "IEC 60320 C13/C14",
@@ -681,7 +916,9 @@
   "legacy": "No",
   "notes": "Most ubiquitous AC power connector globally. C13=female cable end, C14=male inlet on device.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "IEC 60320 C15/C16 (Notched, Hot)",
@@ -699,7 +936,9 @@
   "legacy": "No",
   "notes": "Higher temp rating than C13/C14 (120°C vs 70°C). Notch prevents using standard C13 cable on hot appliance inlet.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "IEC 60320 C19/C20",
@@ -717,7 +956,9 @@
   "legacy": "No",
   "notes": "Larger rectangular form factor for higher current. C19=female cable, C20=male device inlet.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "IEC 60320 C5/C6 (Cloverleaf/Mickey)",
@@ -735,7 +976,9 @@
   "legacy": "No",
   "notes": "Three-round-pin cloverleaf shape. Nearly universal for laptop AC adapters.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "IEC 60320 C7/C8 (Figure-8)",
@@ -753,7 +996,9 @@
   "legacy": "No",
   "notes": "No earth pin — for double-insulated devices only. Polarized variant (C7P) has one squared end.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "IEC 60320 C1/C2 (Shaver)",
@@ -771,7 +1016,9 @@
   "legacy": "Partial legacy",
   "notes": "Rarely seen in new designs; most shaver chargers now use USB-C or proprietary magnetic.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Indian IS 1293 Type D (5A/6A)",
@@ -789,7 +1036,9 @@
   "legacy": "No",
   "notes": "Standard 3-pin round plug unique to India/South Asia. 5A socket won't accept 16A plug — pin diameter differs.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Indian IS 1293 Type M (16A)",
@@ -807,7 +1056,9 @@
   "legacy": "No",
   "notes": "Larger pin diameter than 5A variant. Indian standard mandates separate 16A circuit with higher gauge wiring.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Indian Universal Socket",
@@ -825,7 +1076,9 @@
   "legacy": "No",
   "notes": "Not technically compliant with strict IEC standards due to exposed pin risk. Being phased out in favor of dedicated sockets with shutters.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "NEMA 5-15P/R",
@@ -843,7 +1096,9 @@
   "legacy": "No",
   "notes": "Most common power plug in North America and Japan (Japan uses ungrounded 2-pin variant).",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "NEMA 5-20P/R",
@@ -861,7 +1116,9 @@
   "legacy": "No",
   "notes": "T-shaped neutral slot accepts both 5-15 and 5-20 plugs. 5-15 plug fits in 5-20 receptacle but not vice versa.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "NEMA L14-30P/R (Twist-Lock)",
@@ -879,7 +1136,9 @@
   "legacy": "No",
   "notes": "Locking prevents accidental disconnection. Common on portable generators and manual transfer switches.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "NEMA 14-50P/R",
@@ -897,7 +1156,9 @@
   "legacy": "No",
   "notes": "De facto standard for Level 2 home EV charging in North America.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Schuko (CEE 7/4) / Type F",
@@ -915,7 +1176,9 @@
   "legacy": "No",
   "notes": "Symmetric — no polarity enforcement. Earth connection via side clips, not a pin.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Type G (BS 1363)",
@@ -933,7 +1196,9 @@
   "legacy": "No",
   "notes": "Fused plug (3A or 13A cartridge fuse inside plug). Shuttered socket is very safe design.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Type C (Europlug, CEE 7/16)",
@@ -951,7 +1216,9 @@
   "legacy": "No",
   "notes": "No earth — for double-insulated Class II devices only. Fits into Schuko, Type E, Type J, Type L sockets.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "IEC 60309 (CEE Industrial)",
@@ -969,7 +1236,9 @@
   "legacy": "No",
   "notes": "Color-coded by voltage: Yellow=110V, Blue=230V, Red=400V, Black=500V+. Pin position clock-keying prevents cross-voltage mating. Mandatory on construction sites in EU/India.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Stage Pin (20A)",
@@ -987,7 +1256,9 @@
   "legacy": "No",
   "notes": "Common in US theater installations. Being partially replaced by powerCON in new venues.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Clipsal / HPM (Australian)",
@@ -1005,7 +1276,9 @@
   "legacy": "No",
   "notes": "Similar to Chinese GB 2099 but not identical. Angled flat pins in inverted-V pattern.",
   "category": "Power",
-  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE"
+  "subcategory": "1B — MAINS AC / SINGLE-PHASE / THREE-PHASE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Cam-Lok (E1016)",
@@ -1023,7 +1296,9 @@
   "legacy": "No",
   "notes": "Color-coded single-pole: Black/Red/Blue=phase, White=neutral, Green=ground. Industry standard for entertainment and construction temp power.",
   "category": "Power",
-  "subcategory": "1C — HIGH POWER INDUSTRIAL"
+  "subcategory": "1C — HIGH POWER INDUSTRIAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Powerlock",
@@ -1041,7 +1316,9 @@
   "legacy": "No",
   "notes": "Successor to Cam-Lok for higher current. Finger-safe design. IP67 when mated. Used for 400kW+ event power.",
   "category": "Power",
-  "subcategory": "1C — HIGH POWER INDUSTRIAL"
+  "subcategory": "1C — HIGH POWER INDUSTRIAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Busbar Connector / Joint",
@@ -1059,7 +1336,9 @@
   "legacy": "No",
   "notes": "Not a plug-in connector per se — bolted busbar joints with Belleville washers and specified torque. Some MCC have plug-in stab connectors.",
   "category": "Power",
-  "subcategory": "1C — HIGH POWER INDUSTRIAL"
+  "subcategory": "1C — HIGH POWER INDUSTRIAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MCC Stab / Plug-in Busbar",
@@ -1077,7 +1356,9 @@
   "legacy": "No",
   "notes": "Allows hot-swap of MCC buckets/drawers. Stab contacts engage when unit is racked in.",
   "category": "Power",
-  "subcategory": "1C — HIGH POWER INDUSTRIAL"
+  "subcategory": "1C — HIGH POWER INDUSTRIAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Dinse (Welding Connector)",
@@ -1095,7 +1376,14 @@
   "legacy": "No",
   "notes": "10-25mm, 35-50mm, 50-70mm sizes correspond to cable cross-section. Bayonet quarter-turn lock.",
   "category": "Power",
-  "subcategory": "1C — HIGH POWER INDUSTRIAL"
+  "subcategory": "1C — HIGH POWER INDUSTRIAL",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 1,
+   "pinMax": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "J1772 (Type 1 / SAE J1772)",
@@ -1113,7 +1401,9 @@
   "legacy": "Becoming legacy",
   "notes": "Being superseded by NACS/Tesla connector in North America. Still standard in Japan.",
   "category": "Power",
-  "subcategory": "1D — EV CHARGING"
+  "subcategory": "1D — EV CHARGING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Type 2 (Mennekes / IEC 62196-2)",
@@ -1131,7 +1421,9 @@
   "legacy": "No",
   "notes": "EU-mandated standard. Single-phase (32A/7.4kW) or three-phase (63A/43kW). Indian EV AC charging also adopting Type 2.",
   "category": "Power",
-  "subcategory": "1D — EV CHARGING"
+  "subcategory": "1D — EV CHARGING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "CCS1 (Combo 1)",
@@ -1149,7 +1441,9 @@
   "legacy": "Transitioning to NACS",
   "notes": "J1772 AC section on top + 2 large DC pins below. Being phased out in US as NACS becomes standard.",
   "category": "Power",
-  "subcategory": "1D — EV CHARGING"
+  "subcategory": "1D — EV CHARGING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "CCS2 (Combo 2)",
@@ -1167,7 +1461,9 @@
   "legacy": "No",
   "notes": "EU-mandated DC fast charging standard. Also adopted by India for DC fast charging (Bharat DC 001).",
   "category": "Power",
-  "subcategory": "1D — EV CHARGING"
+  "subcategory": "1D — EV CHARGING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "CHAdeMO",
@@ -1185,7 +1481,9 @@
   "legacy": "Declining outside Japan",
   "notes": "Supports V2G (vehicle-to-grid) bidirectional charging. ChaoJi (CHAdeMO 3.0) is joint China-Japan effort for 900kW.",
   "category": "Power",
-  "subcategory": "1D — EV CHARGING"
+  "subcategory": "1D — EV CHARGING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "GB/T 20234 (China)",
@@ -1203,7 +1501,9 @@
   "legacy": "No",
   "notes": "Mandatory in China. Not compatible with CCS or CHAdeMO. ChaoJi may unify with CHAdeMO 3.0.",
   "category": "Power",
-  "subcategory": "1D — EV CHARGING"
+  "subcategory": "1D — EV CHARGING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Tesla NACS (SAE J3400)",
@@ -1221,7 +1521,9 @@
   "legacy": "No",
   "notes": "Compact design — AC and DC on same pins. Adopted as North American standard. Tesla opened Supercharger network via Magic Dock/NACS adapters.",
   "category": "Power",
-  "subcategory": "1D — EV CHARGING"
+  "subcategory": "1D — EV CHARGING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Bharat AC-001",
@@ -1239,7 +1541,9 @@
   "legacy": "No",
   "notes": "India-specific low-cost AC charging standard. Based on modified industrial plug for cost. Type 2 IEC preferred for higher-power AC.",
   "category": "Power",
-  "subcategory": "1D — EV CHARGING"
+  "subcategory": "1D — EV CHARGING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Bharat DC-001",
@@ -1257,7 +1561,13 @@
   "legacy": "No",
   "notes": "Uses CCS2 physical connector but with India-specific protocol layer. Low-cost 15kW variant deployed widely under government FAME-II scheme.",
   "category": "Power",
-  "subcategory": "1D — EV CHARGING"
+  "subcategory": "1D — EV CHARGING",
+  "geom": {
+   "draw": "dsub",
+   "pins": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MC4 (Multi-Contact 4mm)",
@@ -1275,7 +1585,9 @@
   "legacy": "No",
   "notes": "Industry standard for solar PV. Genuine Stäubli MC4 vs compatible clones — cross-brand mating NOT recommended (UL violation). Requires MC4 crimping tool.",
   "category": "Power",
-  "subcategory": "1E — SOLAR / BESS / GENERATOR"
+  "subcategory": "1E — SOLAR / BESS / GENERATOR",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MC4-Evo 2 (Stäubli)",
@@ -1293,7 +1605,9 @@
   "legacy": "No",
   "notes": "Next-gen MC4 for 1500V systems. Not backward compatible with MC4 without adapter.",
   "category": "Power",
-  "subcategory": "1E — SOLAR / BESS / GENERATOR"
+  "subcategory": "1E — SOLAR / BESS / GENERATOR",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Amphenol Helios H4 / UTX",
@@ -1311,7 +1625,9 @@
   "legacy": "No",
   "notes": "Amphenol's MC4-compatible family. H4 is cross-matable with genuine MC4; UTX is proprietary.",
   "category": "Power",
-  "subcategory": "1E — SOLAR / BESS / GENERATOR"
+  "subcategory": "1E — SOLAR / BESS / GENERATOR",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Phoenix Contact Sunclix",
@@ -1329,7 +1645,9 @@
   "legacy": "No",
   "notes": "Tool-free insertion and release. Used as standard DC input on many SMA inverters.",
   "category": "Power",
-  "subcategory": "1E — SOLAR / BESS / GENERATOR"
+  "subcategory": "1E — SOLAR / BESS / GENERATOR",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Tyco/TE Solarlok",
@@ -1347,7 +1665,9 @@
   "legacy": "Declining",
   "notes": "Being replaced by MC4 variants. Not cross-matable with MC4.",
   "category": "Power",
-  "subcategory": "1E — SOLAR / BESS / GENERATOR"
+  "subcategory": "1E — SOLAR / BESS / GENERATOR",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Battery Terminal Clamp (Top-Post)",
@@ -1365,7 +1685,9 @@
   "legacy": "No",
   "notes": "Tapered conical post. Positive post is larger diameter than negative. Corrosion at terminal is common failure mode.",
   "category": "Power",
-  "subcategory": "1E — SOLAR / BESS / GENERATOR"
+  "subcategory": "1E — SOLAR / BESS / GENERATOR",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Battery Terminal Lug (Crimp/Bolt)",
@@ -1383,7 +1705,9 @@
   "legacy": "No",
   "notes": "Copper or copper-tinned lugs crimped to battery cable. Torque specification critical — under-torque causes arcing.",
   "category": "Power",
-  "subcategory": "1E — SOLAR / BESS / GENERATOR"
+  "subcategory": "1E — SOLAR / BESS / GENERATOR",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Rema Connector (DIN 160A / 320A)",
@@ -1401,7 +1725,14 @@
   "legacy": "No",
   "notes": "Standard European forklift battery connector. Color-coded by voltage. DIN 43589 spec.",
   "category": "Power",
-  "subcategory": "1E — SOLAR / BESS / GENERATOR"
+  "subcategory": "1E — SOLAR / BESS / GENERATOR",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 2,
+   "pinMax": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Generator Receptacle (L14-30 / L21-30 / CS6375)",
@@ -1419,7 +1750,9 @@
   "legacy": "No",
   "notes": "L14-30 most common on portable generators. CS6375 (California Standard) used on RV generators. Always use with transfer switch — never backfeed main panel.",
   "category": "Power",
-  "subcategory": "1E — SOLAR / BESS / GENERATOR"
+  "subcategory": "1E — SOLAR / BESS / GENERATOR",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Shore Power (Marinco / SmartPlug)",
@@ -1437,7 +1770,9 @@
   "legacy": "No",
   "notes": "Marinco twist-lock standard for 30+ years. SmartPlug rectangular design resists overheating at connection point.",
   "category": "Power",
-  "subcategory": "1E — SOLAR / BESS / GENERATOR"
+  "subcategory": "1E — SOLAR / BESS / GENERATOR",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Pantograph Contact Strip",
@@ -1455,7 +1790,9 @@
   "legacy": "No",
   "notes": "Carbon or copper-graphite strip on spring-loaded pantograph arm. Indian Railways uses 25kV AC 50Hz single-phase overhead catenary.",
   "category": "Power",
-  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION"
+  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Third Rail Shoe / Collector Shoe",
@@ -1473,7 +1810,9 @@
   "legacy": "No",
   "notes": "Top-contact, bottom-contact, or side-contact depending on system. Delhi Metro uses standard-gauge side-contact 750V DC third rail.",
   "category": "Power",
-  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION"
+  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Jumper Cable / Inter-Coach Connector (ICF/LHB)",
@@ -1491,7 +1830,9 @@
   "legacy": "No",
   "notes": "Old ICF coaches used 110V DC from under-slung alternator. LHB coaches use 750V AC HOG (Head-on Generation) from locomotive. RDSO is Railway Standards Organization.",
   "category": "Power",
-  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION"
+  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "WAP/WAG Locomotive Terminal Block",
@@ -1509,7 +1850,9 @@
   "legacy": "No",
   "notes": "Internal busbars and terminal blocks rated for traction voltages. Bolted connections with specified torque values. WAG-12B (12000HP) is modern Alstom Prima locomotive.",
   "category": "Power",
-  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION"
+  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Train Communication Network (TCN) Connector",
@@ -1527,7 +1870,9 @@
   "legacy": "No",
   "notes": "Wire Train Bus (WTB) for inter-vehicle, Multifunction Vehicle Bus (MVB) for intra-vehicle. Kavach (Indian TCAS) uses standard TCN physical layer.",
   "category": "Power",
-  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION"
+  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Coupler Head Electrical Connector (AAR)",
@@ -1545,7 +1890,9 @@
   "legacy": "No",
   "notes": "Rides on mechanical coupler. Contacts engage when couplers fully engaged. Used for MU locomotive operation.",
   "category": "Power",
-  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION"
+  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MV Cable Termination / Elbow Connector (200A Loadbreak)",
@@ -1563,7 +1910,9 @@
   "legacy": "No",
   "notes": "Screened separable connector. 200A loadbreak can be operated under load. 600A deadbreak requires de-energization. Standard for underground MV distribution in India and globally.",
   "category": "Power",
-  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION"
+  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "HV Bushing (Transformer/Switchgear)",
@@ -1581,7 +1930,9 @@
   "legacy": "No",
   "notes": "Porcelain or polymer-housed. Oil-to-air or oil-to-SF6 interface. BIL (Basic Insulation Level) rated. Indian grid uses 132/220/400/765kV classes.",
   "category": "Power",
-  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION"
+  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "GIS Plug-in Connector",
@@ -1599,7 +1950,9 @@
   "legacy": "No",
   "notes": "Plug-in design allows modular GIS bay extension. Tulip-type or finger-type contacts. SF6 gas insulated.",
   "category": "Power",
-  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION"
+  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Overhead Line T-Connector / Piercing Connector",
@@ -1617,7 +1970,9 @@
   "legacy": "No",
   "notes": "Insulation-piercing connectors (IPC) don't require cable stripping. Standard for Indian electricity board LT/HT overhead tapping.",
   "category": "Power",
-  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION"
+  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "CT/PT Secondary Terminal Block",
@@ -1635,7 +1990,9 @@
   "legacy": "No",
   "notes": "CT secondary terminals MUST have shorting links — open CT secondary generates lethal voltage. Standard in Indian substation protection panels.",
   "category": "Power",
-  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION"
+  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "XLPE Cable Lug / Compression Connector",
@@ -1653,7 +2010,9 @@
   "legacy": "No",
   "notes": "Copper/aluminium bimetallic lugs. Must be hydraulically crimped with calibrated dies. Indian standard brands: Dowells, Comet, Polycab. Cable gland + heat-shrink termination kit needed for MV/HV.",
   "category": "Power",
-  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION"
+  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Link Disconnector / Drop-out Fuse",
@@ -1671,7 +2030,9 @@
   "legacy": "No",
   "notes": "Fuse element drops when blown, providing visible break. Hot-line tools used for operation. Standard on every Indian 11kV transformer pole.",
   "category": "Power",
-  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION"
+  "subcategory": "1F — RAILWAY / MV-KV DISTRIBUTION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DE-9 (DB-9) Male/Female",
@@ -1689,7 +2050,16 @@
   "legacy": "Partial legacy (still active in industrial)",
   "notes": "Often called DB-9 incorrectly — correct nomenclature is DE-9 (E-size shell). RS-232 on DE-9 is alive in CNC, PLC, and industrial automation. Pinout differs between DTE and DCE.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.74,
+   "pinMin": 9,
+   "pinMax": 9,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DA-15 (DB-15)",
@@ -1707,7 +2077,16 @@
   "legacy": "Yes — Legacy",
   "notes": "Two-row variant. Game port is extinct. AUI Ethernet extinct. Some legacy industrial I/O cards still use it.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.74,
+   "pinMin": 15,
+   "pinMax": 15,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DB-15HD (DE-15 / VGA)",
@@ -1725,7 +2104,16 @@
   "legacy": "Yes — Legacy (still widely deployed)",
   "notes": "Three-row high-density variant. VGA officially deprecated by Intel/AMD in 2015 but still on millions of projectors, KVM switches, and industrial HMIs.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.29,
+   "pinMin": 15,
+   "pinMax": 5,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DB-25 Male/Female",
@@ -1743,7 +2131,16 @@
   "legacy": "Yes — Legacy",
   "notes": "Original RS-232 connector before DE-9 became common. 25-pin parallel printer port replaced by Centronics then USB.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.74,
+   "pinMin": 25,
+   "pinMax": 25,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DC-37",
@@ -1761,7 +2158,16 @@
   "legacy": "Partial legacy",
   "notes": "Still used in high-channel-count DAQ and industrial motion control (Galil, Parker).",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.74,
+   "pinMin": 37,
+   "pinMax": 37,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DD-50",
@@ -1779,7 +2185,16 @@
   "legacy": "Yes — Legacy",
   "notes": "High-density 50-pin D-sub. Replaced by SCA-2 and then SAS in SCSI applications.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.98,
+   "pinMin": 50,
+   "pinMax": 3,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "D-sub Combo (Power+Signal)",
@@ -1797,7 +2212,13 @@
   "legacy": "No",
   "notes": "Combines standard D-sub signal pins with larger power contacts and/or coax contacts in same shell. Common on servo amplifiers (Copley, AMC).",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "geom": {
+   "draw": "dsub",
+   "pins": 9
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Centronics 36-pin (IEEE 1284-B)",
@@ -1815,7 +2236,16 @@
   "legacy": "Yes — Legacy",
   "notes": "The classic printer connector. Micro-Centronics 36 (HPCN36) was the compact variant on SCSI devices. Completely replaced by USB.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.16,
+   "pinMin": 36,
+   "pinMax": 36,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DIN-5 (180° / 240°)",
@@ -1833,7 +2263,14 @@
   "legacy": "Yes — Legacy",
   "notes": "MIDI DIN-5 is the 180° pin arrangement and is still standard for hardware synthesizers and music production, even as TRS MIDI gains ground. AT keyboard DIN-5 replaced by PS/2.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 5,
+   "pinMax": 5
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Mini-DIN 6 (PS/2)",
@@ -1851,7 +2288,14 @@
   "legacy": "Yes — Legacy (still on some industrial PCs)",
   "notes": "Purple = keyboard, Green = mouse. Hot-plug not officially supported (but usually works). Some BIOS/UEFI still requires PS/2 for keyboard access where USB isn't initialized.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 6,
+   "pinMax": 6
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Mini-DIN 4 (S-Video)",
@@ -1869,7 +2313,14 @@
   "legacy": "Yes — Legacy",
   "notes": "Separates luminance (Y) and chrominance (C) for better quality than composite. Dead in consumer; still on some legacy surveillance DVRs.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 4,
+   "pinMax": 4
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Mini-DIN 8",
@@ -1887,7 +2338,14 @@
   "legacy": "Yes — Legacy",
   "notes": "Apple's serial port before USB. LocalTalk was Apple's pre-Ethernet networking.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 8,
+   "pinMax": 8
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "RJ11 / RJ12 (6P2C / 6P4C / 6P6C)",
@@ -1905,7 +2363,9 @@
   "legacy": "Declining (PSTN sunset)",
   "notes": "RJ11 is 6P2C (2 conductors), RJ12 is 6P6C (all 6). Commonly confused. Still used for DSL, alarm panels, and some industrial RS-485 serial.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "RJ45 (8P8C) — for serial/console",
@@ -1923,7 +2383,9 @@
   "legacy": "No",
   "notes": "Cisco blue console cable: RJ45 to DB-9. Pinout is NOT Ethernet T568A/B — it's a rollover cable. Newer gear uses USB-C or USB-B mini for console.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "RS-485 / RS-422 on Screw Terminal",
@@ -1941,7 +2403,9 @@
   "legacy": "No",
   "notes": "Many RS-485 devices use bare screw terminals rather than a specific connector. Wire polarity (A/B) convention is inconsistent across vendors — always verify with scope.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "4-20mA Current Loop Terminal",
@@ -1959,7 +2423,9 @@
   "legacy": "No",
   "notes": "Not a connector type but a signaling standard that uses generic screw terminals. 4mA=zero, 20mA=full scale. Wire break = 0mA, detectable as fault. Still the dominant industrial analog interface.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "0-10V Analog Signal Terminal",
@@ -1977,7 +2443,9 @@
   "legacy": "No",
   "notes": "Simpler than 4-20mA but susceptible to voltage drop over distance and noise. Common in building automation HVAC.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MIDI TRS (3.5mm Type A/B)",
@@ -1995,7 +2463,9 @@
   "legacy": "No",
   "notes": "Type A (endorsed by MIDI Assn) and Type B (Korg, older) are NOT compatible — pin swap between ring and tip. Replacing DIN-5 MIDI on space-constrained gear.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "IEEE 488 / GPIB (Centronics-like 24-pin)",
@@ -2013,7 +2483,9 @@
   "legacy": "Declining but alive in ATE",
   "notes": "Created by HP (hence HP-IB). Stackable connectors allow daisy-chain. 1MB/s (IEEE 488.1), 8MB/s (HS488). Being replaced by LXI (Ethernet-based) but still standard in semiconductor ATE and calibration labs.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SCPI/VISA over USB-TMC",
@@ -2031,7 +2503,9 @@
   "legacy": "No",
   "notes": "Uses standard USB-B connector but with USBTMC device class. Same SCPI command set as GPIB. Requires VISA driver (NI-VISA or Keysight IO Libraries).",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "1-Wire (Dallas/Maxim)",
@@ -2049,7 +2523,9 @@
   "legacy": "No",
   "notes": "Not a connector standard but a protocol that uses various physical connectors. iButton uses stainless steel can with F5 contact reader. DS18B20 uses generic headers or screw terminals.",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "I²C on JST/Qwiic/STEMMA QT",
@@ -2067,7 +2543,16 @@
   "legacy": "No",
   "notes": "Standardized I²C connector on JST SH 1mm. Qwiic and STEMMA QT are cross-compatible. Daisy-chainable. 3.3V logic only (5V will damage).",
   "category": "Signal - Low Speed",
-  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA"
+  "subcategory": "2A — SERIAL / PARALLEL / LEGACY DATA",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.0,
+   "pinMin": 4,
+   "pinMax": 4,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M12 A-coded (4/5-pin)",
@@ -2085,7 +2570,14 @@
   "legacy": "No",
   "notes": "Most common industrial sensor connector worldwide. A-coded 4-pin also used for 100Mbps industrial Ethernet. 5-pin for sensors needing two outputs or analog. IP67 when mated.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 3,
+   "pinMax": 8
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M12 B-coded",
@@ -2103,7 +2595,14 @@
   "legacy": "Declining",
   "notes": "PROFIBUS-specific coding. Being replaced by Ethernet-based protocols (PROFINET on A/D-coded). Still widespread in legacy chemical/process plants.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 5,
+   "pinMax": 5
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M12 C-coded",
@@ -2121,7 +2620,14 @@
   "legacy": "Declining",
   "notes": "AC-rated variant for valve manifolds and AC sensors. Being replaced by IO-Link on A-coded.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 3,
+   "pinMax": 6
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M12 D-coded (4-pin)",
@@ -2139,7 +2645,14 @@
   "legacy": "No",
   "notes": "Standard for 100Mbps industrial Ethernet. D-coding prevents mating with A-coded. IP67. For Gigabit use X-coded.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 4,
+   "pinMax": 4
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M12 X-coded (8-pin)",
@@ -2157,7 +2670,14 @@
   "legacy": "No",
   "notes": "4 twisted pairs in M12 shell for 1Gbps/10Gbps. Larger diameter than A/D-coded M12. Required for GigE Vision cameras in harsh environments.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 8,
+   "pinMax": 8
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M12 L-coded",
@@ -2175,7 +2695,14 @@
   "legacy": "No",
   "notes": "Power variant of M12 — larger pins for higher current. Used to power field devices that previously needed hardwired terminal blocks.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 4,
+   "pinMax": 5
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M12 K-coded",
@@ -2193,7 +2720,14 @@
   "legacy": "No",
   "notes": "AC power variant of M12. Less common than L-coded DC power.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 4,
+   "pinMax": 5
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M12 S-coded",
@@ -2211,7 +2745,14 @@
   "legacy": "No",
   "notes": "Fewer pins, higher current per pin than L-coded.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 2,
+   "pinMax": 4
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M12 T-coded",
@@ -2229,7 +2770,14 @@
   "legacy": "No",
   "notes": "Alternative high-power M12 coding. Not widely adopted outside specific vendor ecosystems.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 4,
+   "pinMax": 4
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M8 (3/4-pin)",
@@ -2247,7 +2795,14 @@
   "legacy": "No",
   "notes": "Smaller than M12 — used where space is critical. IP67. Common on compact sensors from IFM, Sick, Balluff, Omron.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 3,
+   "pinMax": 4
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M5 (3/4-pin)",
@@ -2265,7 +2820,9 @@
   "legacy": "No",
   "notes": "Smallest standard industrial circular connector. Limited to very small sensors in tight spaces.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "7/8\" (M7/8) Circular",
@@ -2283,7 +2840,14 @@
   "legacy": "Declining for data (active for power)",
   "notes": "Larger than M12 for higher power. DeviceNet trunk historically used 7/8\" but migrating to Ethernet. Still used for AC/DC motor power feeds in the field.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 3,
+   "pinMax": 5
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Phoenix COMBICON (MC/MCV/MSTB series)",
@@ -2301,7 +2865,16 @@
   "legacy": "No",
   "notes": "Pluggable PCB terminal blocks. MC=fixed header, MCV=vertical, MSTB=horizontal. Green is Phoenix standard color. Equivalent ranges from Weidmüller (BL/SL), Wago (2000-series), Würth, Dinkle.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "header",
+   "pitch": 3.5,
+   "pinMin": 2,
+   "pinMax": 24,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Weidmüller BL/SL PCB Terminal",
@@ -2319,7 +2892,16 @@
   "legacy": "No",
   "notes": "Direct competitor to Phoenix COMBICON. Interchangeable at same pitch within screw-type families. Orange is Weidmüller standard color.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "header",
+   "pitch": 3.5,
+   "pinMin": 2,
+   "pinMax": 24,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DIN Rail Terminal Block (Phoenix UK/UT, Weidmüller WDU, Wago TOPJOB)",
@@ -2337,7 +2919,14 @@
   "legacy": "No",
   "notes": "Snaps onto 35mm DIN rail (EN 60715). Bridgeable with jumper combs. End stops, partition plates, marking tags available. Phoenix UK series is most common globally including India.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 2,
+   "pinMax": 6
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DIN Rail Fuse Terminal Block",
@@ -2355,7 +2944,14 @@
   "legacy": "No",
   "notes": "Holds 5x20mm or 6.3x32mm glass/ceramic fuses. LED blown-fuse indication available.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 2,
+   "pinMax": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DIN Rail Disconnect Terminal Block",
@@ -2373,7 +2969,14 @@
   "legacy": "No",
   "notes": "Knife-disconnect allows isolating circuits without removing wires. Essential in protection relay panels for CT secondary circuits. Shorting versions available for CTs.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 2,
+   "pinMax": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DeviceNet Connector (Micro/Mini)",
@@ -2391,7 +2994,9 @@
   "legacy": "Declining",
   "notes": "DeviceNet uses CAN-based protocol. Micro-style uses M12, Mini-style uses 7/8\" connectors. Being replaced by EtherNet/IP on M12 D-coded.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "AS-Interface (AS-i) Cable/Connector",
@@ -2409,7 +3014,9 @@
   "legacy": "Declining",
   "notes": "Yellow flat cable with insulation-piercing taps — no stripping needed. Power and data on same 2-wire cable. Being replaced by IO-Link.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "IO-Link (on M12 A-coded)",
@@ -2427,7 +3034,14 @@
   "legacy": "No",
   "notes": "Uses standard M12 A-coded 3-wire sensor cable. IO-Link master on PLC side. Point-to-point, not a bus. Up to 230.4 kbps. Backward compatible with standard digital sensors on same cable.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 3,
+   "pinMax": 12
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "PROFIBUS PA Connector",
@@ -2445,7 +3059,9 @@
   "legacy": "Declining (migrating to Ethernet-APL)",
   "notes": "Intrinsically safe variant of PROFIBUS for process industry. Manchester-encoded, 31.25kbps. Being replaced by Ethernet-APL (2-wire Ethernet for process).",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "HART (on 4-20mA terminals)",
@@ -2463,7 +3079,9 @@
   "legacy": "No",
   "notes": "Coexists with 4-20mA on same wiring. Frequency-shift keying at 1200Hz/2200Hz doesn't disturb analog signal. WirelessHART uses 2.4GHz mesh. Most installed process instruments globally support HART.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Ethernet-APL (on 2-wire fieldbus)",
@@ -2481,7 +3099,9 @@
   "legacy": "No (new technology)",
   "notes": "10Mbps Ethernet on 2-wire cable with power. Designed to replace all legacy fieldbuses in process industry. PROFINET over APL, EtherNet/IP over APL, HART-IP over APL all supported.",
   "category": "Signal - Low Speed",
-  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION"
+  "subcategory": "2B — INDUSTRIAL FIELDBUS & AUTOMATION",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "OBD-II (SAE J1962)",
@@ -2499,7 +3119,9 @@
   "legacy": "No",
   "notes": "Protocols: CAN (pins 6+14), K-Line (pin 7), J1850 (pins 2+10), ISO 9141 (pin 7). Location: within 0.6m of steering column by regulation. Indian BS-VI mandates CAN-based OBD.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Deutsch DT (2/3/4/6/8/12-pin)",
@@ -2517,7 +3139,9 @@
   "legacy": "No",
   "notes": "Wedge-lock retains contacts. Silicone environmental seal provides IP69K. Size 16 (13A) and size 20 (7.5A) contacts. Requires DT crimp tool (HDT-48-00). Clone market is large — genuine TE/Deutsch matters for mil/aerospace.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Deutsch DTM (2–12-pin)",
@@ -2535,7 +3159,9 @@
   "legacy": "No",
   "notes": "Smaller than DT — uses size 20 contacts only. More pin-dense. Same environmental sealing as DT.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Deutsch DTP (2/4-pin)",
@@ -2553,7 +3179,9 @@
   "legacy": "No",
   "notes": "Uses larger size 12 contacts for high-current applications. Limited pin counts.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Deutsch HD (24–47-pin)",
@@ -2571,7 +3199,9 @@
   "legacy": "No",
   "notes": "High-density rectangular sealed connector. Used for main ECU harness connectors on heavy equipment.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "AMP Superseal 1.5 (2–6-pin)",
@@ -2589,7 +3219,9 @@
   "legacy": "No",
   "notes": "Very common in European automotive OEM harnesses (BMW, VW, Mercedes). Silicone multi-wire seal.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "TE/AMP MCP (2.8mm / 6.3mm / 9.5mm)",
@@ -2607,7 +3239,9 @@
   "legacy": "No",
   "notes": "MCP = Multi-Contact Point. Similar concept to Faston but with better retention and sealed housing options. Ubiquitous in automotive relay sockets.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Molex MX150 (sealed)",
@@ -2625,7 +3259,16 @@
   "legacy": "No",
   "notes": "Terminal Position Assurance (TPA) secondary lock. Silicone seal. GM-specified for many body wiring applications.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "geom": {
+   "draw": "header",
+   "pitch": 3.5,
+   "pinMin": 2,
+   "pinMax": 16,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Delphi/Aptiv Metri-Pack 150/280/480/630",
@@ -2643,7 +3286,9 @@
   "legacy": "No",
   "notes": "Number indicates terminal width in hundredths of inch (280 = 2.80mm). Sealed versions have silicone cavity plugs. Very common in Indian automotive OEM (Tata, Mahindra) via Delphi/Aptiv India.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Delphi/Aptiv Weather Pack",
@@ -2661,7 +3306,9 @@
   "legacy": "No",
   "notes": "Classic GM sealed connector. Silicone boot seals and cavity plugs. Tower-style square housings are distinctive. Common in aftermarket and marine.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Sumitomo HM/HW/MT Sealed",
@@ -2679,7 +3326,9 @@
   "legacy": "No",
   "notes": "HM (high moisture) and HW series common on Japanese domestic and export vehicles. Honda/Yamaha/Suzuki India also use Sumitomo variants.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Yazaki 090 / 060 Series",
@@ -2697,7 +3346,9 @@
   "legacy": "No",
   "notes": "Number = terminal width in hundredths of mm (090=0.9mm). Toyota/Lexus standard. Available sealed and unsealed.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "FAKRA (Automotive RF)",
@@ -2715,7 +3366,9 @@
   "legacy": "No",
   "notes": "Color-coded by application: Blue=GPS, Black=cellular, Violet=GSM/UMTS, Wine=FM/AM, Cream=satellite radio, Green=V2X. Replacing SMB in automotive. HSD variant for high-speed data (LVDS camera links).",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "HSD (FAKRA High-Speed Data)",
@@ -2733,7 +3386,9 @@
   "legacy": "No",
   "notes": "4-contact version of FAKRA for broadband data. Carries LVDS video or Ethernet. Common for backup cameras and surround-view systems.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Mini50 / Nano MQS (TE)",
@@ -2751,7 +3406,16 @@
   "legacy": "No",
   "notes": "Ultra-fine-pitch for high-pin-count ECU connectors. Used inside sealed ECU enclosures for board-to-harness interface.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.5,
+   "pinMin": 12,
+   "pinMax": 100,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Automotive Blade Fuse Holders (ATO/ATC, Mini, Micro2)",
@@ -2769,7 +3433,9 @@
   "legacy": "No",
   "notes": "ATO/ATC (standard) most common globally. Mini and Micro2 in newer vehicles. Color-coded by amperage (Yellow=20A, Blue=15A, Red=10A, etc.).",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Automotive Relay Socket (ISO Micro/Mini/Standard)",
@@ -2787,7 +3453,16 @@
   "legacy": "No",
   "notes": "ISO micro (280 series), ISO mini, and ISO standard (Bosch) relay footprints. DIN 72552 terminal numbering: 85/86=coil, 30=common, 87=NO, 87a=NC.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "geom": {
+   "draw": "header",
+   "pitch": 6.3,
+   "pinMin": 4,
+   "pinMax": 5,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "CAN Bus Termination (DB-9 / OBD / screw)",
@@ -2805,7 +3480,13 @@
   "legacy": "No",
   "notes": "CAN bus uses 120Ω termination at each end. CiA 303-1 standardizes DE-9 pinout for CANopen. J1939 uses Deutsch HD connectors. CAN-FD supports up to 8Mbps.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "geom": {
+   "draw": "dsub",
+   "pins": 9
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "LIN Bus (on OEM connectors)",
@@ -2823,7 +3504,9 @@
   "legacy": "No",
   "notes": "Single-wire sub-bus for low-bandwidth body functions. Slave nodes are cheap. Master (ECU) bridges to CAN. Uses whatever connector the OEM chooses — no dedicated LIN connector standard.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SAE J1708 / J1587 (DE-9)",
@@ -2841,7 +3524,13 @@
   "legacy": "Yes — Legacy (replaced by J1939 CAN)",
   "notes": "Pre-CAN heavy vehicle data bus. Still present on many in-service trucks and buses. Indian older Ashok Leyland and Tata trucks may have J1708 alongside newer CAN.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "geom": {
+   "draw": "dsub",
+   "pins": 9
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "NMEA 2000 / DeviceNet Micro",
@@ -2859,7 +3548,9 @@
   "legacy": "No",
   "notes": "CAN 2.0B at 250kbps. Proprietary connector (DeviceNet Micro-C) with T-connectors for drop lines. Powered bus — devices draw power from cable.",
   "category": "Signal - Low Speed",
-  "subcategory": "2C — AUTOMOTIVE"
+  "subcategory": "2C — AUTOMOTIVE",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Hiperface DSL (on M12/M23 or direct)",
@@ -2877,7 +3568,14 @@
   "legacy": "No",
   "notes": "Digital Servo Link — encoder data transmitted over motor power cable, eliminating separate feedback cable. Competitive with EnDat and BiSS.",
   "category": "Signal - Low Speed",
-  "subcategory": "2D — ENCODER / MOTOR FEEDBACK"
+  "subcategory": "2D — ENCODER / MOTOR FEEDBACK",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 2,
+   "pinMax": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "EnDat 2.2 (on M12/M23)",
@@ -2895,7 +3593,14 @@
   "legacy": "No",
   "notes": "Bidirectional serial interface. Pure digital since EnDat 2.1. 25-bit+ absolute position. Used on Heidenhain linear and rotary encoders. Siemens drives natively support EnDat.",
   "category": "Signal - Low Speed",
-  "subcategory": "2D — ENCODER / MOTOR FEEDBACK"
+  "subcategory": "2D — ENCODER / MOTOR FEEDBACK",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 4,
+   "pinMax": 4
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "BiSS-C (on M12 or cable)",
@@ -2913,7 +3618,14 @@
   "legacy": "No",
   "notes": "Open-source alternative to proprietary EnDat/Hiperface. Bidirectional serial, SSI-compatible. Adopted by Renishaw, Kübler, POSITAL.",
   "category": "Signal - Low Speed",
-  "subcategory": "2D — ENCODER / MOTOR FEEDBACK"
+  "subcategory": "2D — ENCODER / MOTOR FEEDBACK",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 4,
+   "pinMax": 4
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SSI (Synchronous Serial Interface)",
@@ -2931,7 +3643,9 @@
   "legacy": "No",
   "notes": "Unidirectional — master sends clock, slave returns position. Gray or binary code. Simple and reliable. Used on many industrial absolute encoders.",
   "category": "Signal - Low Speed",
-  "subcategory": "2D — ENCODER / MOTOR FEEDBACK"
+  "subcategory": "2D — ENCODER / MOTOR FEEDBACK",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Incremental Encoder (A/B/Z on M12/M23 or cable)",
@@ -2949,7 +3663,14 @@
   "legacy": "No",
   "notes": "HTL (High-Threshold Logic) is 24V compatible for PLC counting inputs. TTL needs 5V differential receiver. Z = index/reference pulse. ABZ + complements = 6 signal wires.",
   "category": "Signal - Low Speed",
-  "subcategory": "2D — ENCODER / MOTOR FEEDBACK"
+  "subcategory": "2D — ENCODER / MOTOR FEEDBACK",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 6,
+   "pinMax": 6
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Resolver (Synchro) Cable",
@@ -2967,7 +3688,9 @@
   "legacy": "No (rugged niche)",
   "notes": "Analog absolute position sensor — no electronics in the motor. Extremely rugged (no semiconductor junction). Resolver-to-digital converter (RDC) on drive side. Used where temp/vibration exceeds encoder limits.",
   "category": "Signal - Low Speed",
-  "subcategory": "2D — ENCODER / MOTOR FEEDBACK"
+  "subcategory": "2D — ENCODER / MOTOR FEEDBACK",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Tamagawa Smartcoder / Nikon Encoder",
@@ -2985,7 +3708,9 @@
   "legacy": "No",
   "notes": "Tamagawa AU6802/AU6805 protocol common on Yaskawa Sigma-series servos. Nikon encoders on some Panasonic MINAS series. Connector is OEM-specific — often 10-pin or 15-pin proprietary.",
   "category": "Signal - Low Speed",
-  "subcategory": "2D — ENCODER / MOTOR FEEDBACK"
+  "subcategory": "2D — ENCODER / MOTOR FEEDBACK",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M23 Circular (Signal/Power)",
@@ -3003,7 +3728,14 @@
   "legacy": "No",
   "notes": "Larger than M12, used for combined servo motor power (3-phase + PE) or high-pin-count encoder feedback. Common on Siemens, SEW, Lenze, Beckhoff servo motors.",
   "category": "Signal - Low Speed",
-  "subcategory": "2D — ENCODER / MOTOR FEEDBACK"
+  "subcategory": "2D — ENCODER / MOTOR FEEDBACK",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 6,
+   "pinMax": 19
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SpeedTec (Siemens proprietary)",
@@ -3021,7 +3753,9 @@
   "legacy": "No",
   "notes": "Siemens proprietary fast-locking servo connector. Quarter-turn instead of multi-turn thread saves installation time. Only compatible with Siemens ecosystem.",
   "category": "Signal - Low Speed",
-  "subcategory": "2D — ENCODER / MOTOR FEEDBACK"
+  "subcategory": "2D — ENCODER / MOTOR FEEDBACK",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "One Cable Technology (OCT/Hiperface DSL/SCS)",
@@ -3039,7 +3773,9 @@
   "legacy": "No",
   "notes": "Major trend in servo drives. Encoder data modulated on motor power cable. Beckhoff OCT, Rexroth SCS open, Hiperface DSL, FANUC αi serial — all different protocols. Not interchangeable across vendors.",
   "category": "Signal - Low Speed",
-  "subcategory": "2D — ENCODER / MOTOR FEEDBACK"
+  "subcategory": "2D — ENCODER / MOTOR FEEDBACK",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "USB Type-A (Standard)",
@@ -3057,7 +3793,9 @@
   "legacy": "Declining (USB-C replacing)",
   "notes": "Most deployed USB connector in history. USB 3.x Type-A adds 5 pins behind the original 4. SuperSpeed 5/10Gbps. Being replaced by USB-C on new devices.",
   "category": "Signal - High Speed",
-  "subcategory": "3A — USB FAMILY"
+  "subcategory": "3A — USB FAMILY",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "USB Type-B (Standard)",
@@ -3075,7 +3813,9 @@
   "legacy": "Yes — Legacy (declining)",
   "notes": "Square-ish trapezoidal connector. USB 3.0 Type-B has a taller blue housing with extra pins on top. Still on many printers and lab instruments.",
   "category": "Signal - High Speed",
-  "subcategory": "3A — USB FAMILY"
+  "subcategory": "3A — USB FAMILY",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "USB Mini-B (5-pin)",
@@ -3093,7 +3833,9 @@
   "legacy": "Yes — Legacy",
   "notes": "Replaced by Micro-B. Still found on legacy Garmin GPS, old audio recorders. Mechanically weaker than Micro-B.",
   "category": "Signal - High Speed",
-  "subcategory": "3A — USB FAMILY"
+  "subcategory": "3A — USB FAMILY",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "USB Micro-B (2.0)",
@@ -3111,7 +3853,9 @@
   "legacy": "Declining (USB-C replacing)",
   "notes": "Designed for 10,000 mating cycles (vs 1,500 for Mini-B). Still ubiquitous on ESP32 dev boards, budget IoT, and legacy Android devices.",
   "category": "Signal - High Speed",
-  "subcategory": "3A — USB FAMILY"
+  "subcategory": "3A — USB FAMILY",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "USB Micro-B (3.0 SuperSpeed)",
@@ -3129,7 +3873,9 @@
   "legacy": "Yes — Legacy",
   "notes": "Wide dual-section connector. Fragile and unpopular — major reason USB-C was created. Only survived on external storage briefly.",
   "category": "Signal - High Speed",
-  "subcategory": "3A — USB FAMILY"
+  "subcategory": "3A — USB FAMILY",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "USB Type-C",
@@ -3147,7 +3893,9 @@
   "legacy": "No (current standard)",
   "notes": "Reversible. Supports USB 2.0 through USB4 (40/80Gbps), Thunderbolt 3/4/5, DisplayPort Alt Mode, HDMI Alt Mode. Not all USB-C cables/ports are equal — cable rating and Alt Mode support vary massively. EU mandates USB-C charging from 2024.",
   "category": "Signal - High Speed",
-  "subcategory": "3A — USB FAMILY"
+  "subcategory": "3A — USB FAMILY",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "USB Type-C (USB4 / Thunderbolt 4/5)",
@@ -3165,7 +3913,9 @@
   "legacy": "No",
   "notes": "USB4 v2 supports 80Gbps symmetric or 120Gbps asymmetric. Thunderbolt 5 uses same USB-C connector with 80Gbps (120G asym via bandwidth boost). Active and optical cables extend reach.",
   "category": "Signal - High Speed",
-  "subcategory": "3A — USB FAMILY"
+  "subcategory": "3A — USB FAMILY",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Lightning",
@@ -3183,7 +3933,9 @@
   "legacy": "Yes — Legacy (replaced by USB-C)",
   "notes": "Replaced 30-pin Dock connector in 2012. Being phased out — iPhone 15+ uses USB-C (EU mandate). MFi authentication chip required in cable/accessory.",
   "category": "Signal - High Speed",
-  "subcategory": "3A — USB FAMILY"
+  "subcategory": "3A — USB FAMILY",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Apple 30-pin Dock",
@@ -3201,7 +3953,9 @@
   "legacy": "Yes — Legacy",
   "notes": "Carried USB data, analog audio, composite/component video, serial, charging on one connector. Replaced by Lightning in 2012.",
   "category": "Signal - High Speed",
-  "subcategory": "3A — USB FAMILY"
+  "subcategory": "3A — USB FAMILY",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "RJ45 (8P8C) — Ethernet",
@@ -3219,7 +3973,9 @@
   "legacy": "No",
   "notes": "T568A and T568B wiring standards — don't mix. Cat 5e: 1Gbps, Cat 6: 1Gbps (10G at 55m), Cat 6A: 10Gbps at 100m, Cat 8: 25/40Gbps at 30m. PoE IEEE 802.3af/at/bt delivers up to 90W.",
   "category": "Signal - High Speed",
-  "subcategory": "3B — ETHERNET / NETWORKING"
+  "subcategory": "3B — ETHERNET / NETWORKING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "RJ45 Industrial (shielded, M12-style housing)",
@@ -3237,7 +3993,14 @@
   "legacy": "No",
   "notes": "IP20 to IP67 variants. Some use push-pull housings (Harting PushPull, TE ix Industrial) for vibration resistance. Shielded to prevent EMI in factory environments.",
   "category": "Signal - High Speed",
-  "subcategory": "3B — ETHERNET / NETWORKING"
+  "subcategory": "3B — ETHERNET / NETWORKING",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 8,
+   "pinMax": 8
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M12 D-coded (Ethernet, repeated from Phase 2)",
@@ -3255,7 +4018,14 @@
   "legacy": "No",
   "notes": "100Mbps industrial Ethernet standard. D-coded prevents mating with sensor A-coded M12.",
   "category": "Signal - High Speed",
-  "subcategory": "3B — ETHERNET / NETWORKING"
+  "subcategory": "3B — ETHERNET / NETWORKING",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 4,
+   "pinMax": 4
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M12 X-coded (Ethernet, repeated from Phase 2)",
@@ -3273,7 +4043,14 @@
   "legacy": "No",
   "notes": "Gigabit/10G industrial Ethernet in M12 form factor.",
   "category": "Signal - High Speed",
-  "subcategory": "3B — ETHERNET / NETWORKING"
+  "subcategory": "3B — ETHERNET / NETWORKING",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 8,
+   "pinMax": 8
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ix Industrial (TE Connectivity)",
@@ -3291,7 +4068,9 @@
   "legacy": "No",
   "notes": "70% smaller than RJ45. Cat 6A capable (10Gbps). A-coded (Ethernet), B-coded (EtherCAT P). Growing adoption in compact industrial devices and collaborative robots.",
   "category": "Signal - High Speed",
-  "subcategory": "3B — ETHERNET / NETWORKING"
+  "subcategory": "3B — ETHERNET / NETWORKING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SPE (Single Pair Ethernet) / T1 Industrial",
@@ -3309,7 +4088,9 @@
   "legacy": "No (emerging)",
   "notes": "Reduces Ethernet to a single twisted pair. Multiple connector form factors competing: IEC 63171-1 (LC-style), 63171-2 (industrial), 63171-5 (M8), 63171-6 (M12 hybrid). PoDL = Power over Data Line.",
   "category": "Signal - High Speed",
-  "subcategory": "3B — ETHERNET / NETWORKING"
+  "subcategory": "3B — ETHERNET / NETWORKING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SFP/SFP+ Cage (LC fiber inside)",
@@ -3327,7 +4108,9 @@
   "legacy": "No",
   "notes": "Hot-pluggable transceiver. SFP=1G, SFP+=10G, SFP28=25G. MSA (Multi-Source Agreement) ensures interop. LC duplex fiber interface on optical SFPs. RJ45 copper SFPs also exist.",
   "category": "Signal - High Speed",
-  "subcategory": "3B — ETHERNET / NETWORKING"
+  "subcategory": "3B — ETHERNET / NETWORKING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "QSFP/QSFP+/QSFP28/QSFP-DD Cage",
@@ -3345,7 +4128,9 @@
   "legacy": "No",
   "notes": "QSFP+=40G (4x10G), QSFP28=100G (4x25G), QSFP56=200G (4x50G), QSFP-DD=400G/800G. OSFP is competing form factor for 800G+. AI/ML clusters (Nvidia DGX) use QSFP heavily for InfiniBand/RoCE.",
   "category": "Signal - High Speed",
-  "subcategory": "3B — ETHERNET / NETWORKING"
+  "subcategory": "3B — ETHERNET / NETWORKING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "OSFP",
@@ -3363,7 +4148,9 @@
   "legacy": "No",
   "notes": "Larger than QSFP-DD, allows higher power dissipation for 800G/1.6T optics. Competing with QSFP-DD for next-gen data center standard.",
   "category": "Signal - High Speed",
-  "subcategory": "3B — ETHERNET / NETWORKING"
+  "subcategory": "3B — ETHERNET / NETWORKING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "CXP / CFP / CFP2 / CFP4",
@@ -3381,7 +4168,9 @@
   "legacy": "Declining (replaced by QSFP)",
   "notes": "CFP was first 100G MSA form factor — very large. CFP2/CFP4 shrunk it. Now mostly replaced by QSFP28/QSFP-DD except for coherent telecom optics where CFP2-DCO remains.",
   "category": "Signal - High Speed",
-  "subcategory": "3B — ETHERNET / NETWORKING"
+  "subcategory": "3B — ETHERNET / NETWORKING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MTP/MPO Trunk Connector (fiber)",
@@ -3399,7 +4188,9 @@
   "legacy": "No",
   "notes": "Multi-fiber push-on. MTP is US Conec's trademarked high-performance variant of MPO. 12-fiber is standard; 24/32 for 400G+ breakout. Gender: male (pins) / female (no pins). Polarity methods A/B/C defined by TIA-568.",
   "category": "Signal - High Speed",
-  "subcategory": "3B — ETHERNET / NETWORKING"
+  "subcategory": "3B — ETHERNET / NETWORKING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "LC Duplex (fiber, cross-ref Phase 4)",
@@ -3417,7 +4208,9 @@
   "legacy": "No",
   "notes": "Small form factor. Dominant fiber connector for structured cabling and transceiver interfaces. Full details in Phase 4.",
   "category": "Signal - High Speed",
-  "subcategory": "3B — ETHERNET / NETWORKING"
+  "subcategory": "3B — ETHERNET / NETWORKING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Ethernet Backplane (press-fit, high-speed)",
@@ -3435,7 +4228,16 @@
   "legacy": "No",
   "notes": "Designed for 10G/25G/56G per lane signal integrity on backplane PCB traces. Controlled impedance, low crosstalk. TE STRADA Whisper supports 56Gbps PAM4.",
   "category": "Signal - High Speed",
-  "subcategory": "3B — ETHERNET / NETWORKING"
+  "subcategory": "3B — ETHERNET / NETWORKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.0,
+   "pinMin": 50,
+   "pinMax": 300,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "FPC/FFC Connector (ZIF)",
@@ -3453,7 +4255,16 @@
   "legacy": "No",
   "notes": "Zero Insertion Force — lift actuator, insert flex, close actuator. Pitch determines current/voltage rating. 0.5mm pitch is most common for displays. Top-contact and bottom-contact variants exist — verify orientation.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.3,
+   "pinMin": 4,
+   "pinMax": 80,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MIPI CSI-2 (on FPC)",
@@ -3471,7 +4282,16 @@
   "legacy": "No",
   "notes": "MIPI CSI-2 is the protocol — physical connector varies by SBC/SoM vendor. RPi uses 15-pin 1mm FPC, Jetson uses 22-pin 0.5mm FPC. Not cross-compatible even if pin count matches — check pinout.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.5,
+   "pinMin": 15,
+   "pinMax": 22,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MIPI DSI (on FPC)",
@@ -3489,7 +4309,16 @@
   "legacy": "No",
   "notes": "MIPI DSI protocol on FPC connector. RPi DSI uses 15-pin 1mm FPC (different pinout from CSI despite identical connector). eDP is replacing DSI in some embedded displays.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.5,
+   "pinMin": 15,
+   "pinMax": 15,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "HDMI Type A (Standard)",
@@ -3507,7 +4336,9 @@
   "legacy": "No",
   "notes": "HDMI 2.0: 18Gbps (4K@60Hz). HDMI 2.1: 48Gbps (4K@120Hz, 8K@60Hz). No locking mechanism is a problem in industrial/AV — use panel-mount adapters or HDMI locking cable retention clips.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "HDMI Type C (Mini)",
@@ -3525,7 +4356,9 @@
   "legacy": "No",
   "notes": "Same signal capability as Type A in smaller form factor. Common on cameras for clean HDMI out. Fragile connector — avoid repeated mating.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "HDMI Type D (Micro)",
@@ -3543,7 +4376,9 @@
   "legacy": "Declining",
   "notes": "Smallest HDMI. Very fragile. Being replaced by USB-C Alt Mode for small devices.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DisplayPort (Standard / Full-size)",
@@ -3561,7 +4396,9 @@
   "legacy": "No",
   "notes": "DP 1.4: 32.4Gbps (4K@120Hz HDR, 8K@60Hz DSC). DP 2.1: up to 80Gbps (UHBR20). Supports daisy-chaining (MST). Latch clip is push-button release — better retention than HDMI. Free standard (no royalty, unlike HDMI).",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Mini DisplayPort / Thunderbolt 1/2",
@@ -3579,7 +4416,9 @@
   "legacy": "Declining (USB-C TB3/4 replacing)",
   "notes": "Mini DisplayPort form factor reused for Thunderbolt 1 (10Gbps) and Thunderbolt 2 (20Gbps). TB3+ moved to USB-C. Still on some monitors as input.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DVI-D / DVI-I / DVI-A",
@@ -3597,7 +4436,9 @@
   "legacy": "Yes — Legacy (still on some medical/industrial)",
   "notes": "DVI-D = digital only, DVI-I = digital + analog, DVI-A = analog only. Single-link: 3.7Gbps (1920x1200@60Hz). Dual-link: 7.4Gbps (2560x1600@60Hz). Being removed from new GPUs.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "PCIe x1/x4/x8/x16 Edge Connector",
@@ -3615,7 +4456,16 @@
   "legacy": "No",
   "notes": "PCIe Gen 3: 8GT/s (x16=32GB/s). Gen 4: 16GT/s (x16=64GB/s). Gen 5: 32GT/s (x16=128GB/s). Gen 6: 64GT/s (PAM4). CEM = Card Electromechanical. Edge fingers are gold-plated.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.0,
+   "pinMin": 1,
+   "pinMax": 164,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M.2 (NGFF) Connector",
@@ -3633,7 +4483,9 @@
   "legacy": "No",
   "notes": "Keys determine interface: M-key = PCIe x4 (NVMe SSD), B-key = SATA/PCIe x2, E-key = PCIe x1 + USB (WiFi/BT), A-key = similar to E. Form factors: 2230/2242/2260/2280/22110 (width x length in mm). Jetson Orin uses M.2 for NVMe and WiFi.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "U.2 (SFF-8639)",
@@ -3651,7 +4503,9 @@
   "legacy": "Declining (EDSFF replacing)",
   "notes": "Combines PCIe, SATA, and SAS on one connector. Hot-pluggable. Enterprise NVMe SSDs used U.2 before EDSFF. Cable connector is SFF-8643 (mini-SAS HD).",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "EDSFF E1.S / E1.L / E3.S",
@@ -3669,7 +4523,9 @@
   "legacy": "No (emerging)",
   "notes": "Enterprise & Data Center SSD Form Factor. E1.S = short (replacing M.2 in servers), E1.L = long (ruler form), E3.S = 3\" short. PCIe Gen 5 native. Replaces U.2 and M.2 in data center.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SATA Data (7-pin)",
@@ -3687,7 +4543,16 @@
   "legacy": "Declining (NVMe replacing)",
   "notes": "SATA III max 6Gbps — bottleneck for modern SSDs. L-key prevents reverse insertion. SATA Express attempted PCIe on SATA connector — failed and abandoned.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.27,
+   "pinMin": 7,
+   "pinMax": 7,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SAS (Serial Attached SCSI) — SFF-8482 / SFF-8643",
@@ -3705,7 +4570,9 @@
   "legacy": "No (enterprise standard)",
   "notes": "Backward compatible with SATA drives (SAS controller accepts SATA drives, not vice versa). SFF-8643 mini-SAS HD is the modern internal/external cable connector. SFF-8644 for external.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "OCuLink (SFF-9402)",
@@ -3723,7 +4590,9 @@
   "legacy": "No",
   "notes": "Cable version of PCIe for internal server connections. PCIe Gen 4 x4 = 64Gbps. Used in some compact eGPU docks. Being challenged by CXL for disaggregated compute.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "CXL (Compute Express Link) — PCIe form factor",
@@ -3741,7 +4610,9 @@
   "legacy": "No (emerging)",
   "notes": "Uses PCIe physical layer but adds cache-coherent memory protocol. CXL 1.1 on Gen 5, CXL 2.0/3.0 on Gen 5/6. Same PCIe connector — differentiated by protocol. Critical for next-gen AI memory expansion.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "NVLink / NVSwitch (Nvidia proprietary)",
@@ -3759,7 +4630,9 @@
   "legacy": "No",
   "notes": "NVLink 4 (H100): 900GB/s per GPU. NVLink 5 (B200): 1.8TB/s. NVSwitch allows full-bandwidth all-to-all GPU communication. Not a user-serviceable connector — part of baseboard/tray design.",
   "category": "Signal - High Speed",
-  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL"
+  "subcategory": "3C — HIGH-SPEED BOARD-LEVEL / PERIPHERAL",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MIL-DTL-38999 Series III",
@@ -3777,7 +4650,14 @@
   "legacy": "No",
   "notes": "Tri-start bayonet allows quick connect with quarter-turn. EMI/RFI shielding. Environmental sealing IP67+. Scoop-proof design prevents pin damage. Series I = bayonet, Series II = threaded, Series III = tri-start bayonet, Series IV = push-pull. Multiple plating finishes (cadmium olive drab, nickel, electroless nickel).",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 5,
+   "pinMax": 128
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MIL-DTL-38999 Series IV (Push-Pull)",
@@ -3795,7 +4675,14 @@
   "legacy": "No",
   "notes": "Same insert arrangements as Series III but push-pull coupling for blind-mate or quick-disconnect applications.",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 5,
+   "pinMax": 128
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MIL-DTL-5015 (MS/AN Circular)",
@@ -3813,7 +4700,14 @@
   "legacy": "No (still active)",
   "notes": "Oldest still-active MIL connector spec (dating to WWII). Large, robust, economical. Not EMI-shielded by default. Still widely used for ground equipment and industrial applications where environmental sealing is needed but EMI shielding isn't critical.",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 1,
+   "pinMax": 61
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MIL-DTL-26482 Series I / II",
@@ -3831,7 +4725,14 @@
   "legacy": "No",
   "notes": "Miniature circular — smaller than 38999 for space-constrained military applications. Common on UAVs and missile systems.",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 2,
+   "pinMax": 61
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MIL-DTL-83723 Series III",
@@ -3849,7 +4750,14 @@
   "legacy": "No",
   "notes": "Higher pin density than 38999 in similar shell sizes. Used where contact count is critical.",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 9,
+   "pinMax": 128
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ARINC 600 (ATR Rack Connector)",
@@ -3867,7 +4775,9 @@
   "legacy": "No",
   "notes": "Standard avionics LRU connector. Blind-mate design — LRU slides into rack and connector mates automatically. Different insert sizes (1–7) for different LRU widths. DO-160 environmental qualification.",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ARINC 404A / 404B (Legacy ATR)",
@@ -3885,7 +4795,9 @@
   "legacy": "Yes — Legacy (replaced by ARINC 600)",
   "notes": "Predecessor to ARINC 600. Still found on legacy military aircraft and some older commercial avionics.",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ARINC 801 (Fiber Optic Terminus)",
@@ -3903,7 +4815,9 @@
   "legacy": "No",
   "notes": "Fiber optic termini that fit into standard MIL circular connector shells (38999, ARINC 600). Allows mixed copper/fiber in same connector.",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ARINC 429 (on various connectors)",
@@ -3921,7 +4835,9 @@
   "legacy": "No (declining in new designs)",
   "notes": "Unidirectional, point-to-point or single-transmitter/multi-receiver. 12.5kbps (low speed) or 100kbps (high speed). 32-bit word format. Being supplemented by AFDX/ARINC 664 (Ethernet-based) on newer aircraft (A380, B787).",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ARINC 664 / AFDX (on RJ45 or ARINC 600)",
@@ -3939,7 +4855,9 @@
   "legacy": "No",
   "notes": "Deterministic Ethernet for safety-critical avionics. Virtual links with guaranteed bandwidth. Redundant network A/B. Physical layer is standard 100BASE-TX Ethernet.",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MIL-STD-1553 (on MIL circular or D-sub)",
@@ -3957,7 +4875,14 @@
   "legacy": "No (still primary mil bus)",
   "notes": "1Mbps half-duplex command/response bus. Dual-redundant (Bus A / Bus B). 31 remote terminals max per bus. Time-division multiplexing. Direct coupler (transformer) or stub coupling. Extremely mature and certified — used on nearly every military platform worldwide including Indian LCA Tejas and DRDO UAVs.",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 1,
+   "pinMax": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Fibre Channel (FC) — SFP or LC fiber",
@@ -3975,7 +4900,9 @@
   "legacy": "Declining in enterprise (NVMe-oF replacing), alive in mil",
   "notes": "FC-16G and FC-32G in enterprise SAN. Military uses FC for MIL-STD-1760 weapon datalink (smart weapons). Being replaced by NVMe-over-Fabrics in enterprise but entrenched in military avionics.",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MIL-STD-1760 (Aircraft-Store Electrical Interconnect)",
@@ -3993,7 +4920,9 @@
   "legacy": "No",
   "notes": "Defines the electrical interface between aircraft and everything hung under wings/fuselage. Carries MIL-STD-1553, Fibre Channel, discrete signals, power. Used on F-16, F-18, F-35, Eurofighter, Rafale, Indian Su-30MKI.",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "D-38999 Fiber Optic (TFOCA)",
@@ -4011,7 +4940,9 @@
   "legacy": "No",
   "notes": "Ruggedized fiber optic in 38999-style shells. TFOCA-II is the current standard. Used by all branches for tactical networking. IP68+ when mated.",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Micro-D / Nano-D (MIL-DTL-83513 / MIL-DTL-32139)",
@@ -4029,7 +4960,16 @@
   "legacy": "No",
   "notes": "Micro-D is half the size of standard D-sub. Nano-D is half of Micro-D. Critical for space applications where mass and volume are constrained. Omnetics and Glenair are major suppliers.",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.27,
+   "pinMin": 9,
+   "pinMax": 51,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Hypertac / Hyperboloid Contact (in various shells)",
@@ -4047,7 +4987,9 @@
   "legacy": "No",
   "notes": "Hyperboloid contacts use twisted wire cage instead of leaf spring — provides multiple contact points, extremely low contact resistance, and long life (100,000+ cycles). Used inside 38999, ARINC 600, or proprietary shells for highest-reliability applications.",
   "category": "Signal - High Speed",
-  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER"
+  "subcategory": "3D — AEROSPACE / DEFENSE DATA & POWER",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "BNC (Bayonet Neill-Concelman)",
@@ -4065,7 +5007,9 @@
   "legacy": "No",
   "notes": "50Ω (test/data) and 75Ω (video) variants exist — NOT interchangeable despite mating. 50Ω BNC usable to 4GHz, 75Ω to 2GHz. The universal lab/test connector.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "TNC (Threaded Neill-Concelman)",
@@ -4083,7 +5027,9 @@
   "legacy": "No",
   "notes": "Threaded version of BNC — better performance above 4GHz and in vibration environments. Used where BNC bayonet might loosen. Common on military and telecom RF.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "N-Type (Neill)",
@@ -4101,7 +5047,9 @@
   "legacy": "No",
   "notes": "50Ω standard. Handles up to 11GHz. Higher power handling than BNC/TNC. Available in 75Ω variant for CATV/broadcast. Weatherproof when properly mated with tape/boot.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "7-16 DIN",
@@ -4119,7 +5067,14 @@
   "legacy": "No",
   "notes": "Low PIM (Passive Intermodulation) design critical for multi-carrier cell sites. 7mm inner / 16mm outer conductor. Handles very high RF power (>100W continuous). Replacing N-type on modern cell towers.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 1,
+   "pinMax": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "4.3-10 (Mini DIN)",
@@ -4137,7 +5092,14 @@
   "legacy": "No",
   "notes": "40% smaller than 7-16 DIN with comparable PIM performance. Multiple coupling mechanisms (screw, push-pull, snap) all intermate — major advantage for field installation flexibility.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 1,
+   "pinMax": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SMA (SubMiniature version A)",
@@ -4155,7 +5117,9 @@
   "legacy": "No",
   "notes": "50Ω. Usable to 18GHz (standard) or 26.5GHz (precision). THE standard for RF board-to-cable and test equipment below 18GHz. Thread-on coupling — not quick-connect. LoRa, GPS, and WiFi antennas on Orin Nano / ESP32 typically use SMA or RP-SMA.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "RP-SMA (Reverse Polarity SMA)",
@@ -4173,7 +5137,9 @@
   "legacy": "No",
   "notes": "Same shell as SMA but pin/socket reversed — male RP-SMA has socket (no center pin), female has pin. Created to prevent consumers from attaching high-gain antennas to WiFi gear (FCC compliance). RP-SMA and SMA do NOT mate.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SMB (SubMiniature version B)",
@@ -4191,7 +5157,9 @@
   "legacy": "Declining in automotive",
   "notes": "Quick-connect snap-on — faster than SMA threaded. 50Ω or 75Ω. Usable to 4GHz. Automotive applications largely replaced by FAKRA. Still used in telecom timing distribution.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SMC (SubMiniature version C)",
@@ -4209,7 +5177,9 @@
   "legacy": "Declining",
   "notes": "Threaded version of SMB — less common. Same frequency range as SMB but more secure connection.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MCX",
@@ -4227,7 +5197,9 @@
   "legacy": "No",
   "notes": "30% smaller than SMB. Snap-on for quick mating. 50Ω. Usable to 6GHz. Common on u-blox GPS modules and cellular modem boards.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MMCX",
@@ -4245,7 +5217,9 @@
   "legacy": "No",
   "notes": "Micro-miniature. 45% smaller than MCX. 360° rotation after mating — useful for routing flexibility. 50Ω. Usable to 6GHz. Common on Intel WiFi M.2 cards.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "U.FL / IPEX / MHF (Hirose)",
@@ -4263,7 +5237,9 @@
   "legacy": "No",
   "notes": "Smallest common RF connector. 1.4mm mating height. 50Ω. Usable to 6GHz. Very fragile — rated for only ~30 mating cycles. U.FL (Hirose), MHF/I-PEX (Dai-ichi Seiko), and AMC are functionally identical but not officially cross-brand. Used on Xiao ESP32-S3 and most WiFi-enabled SBCs.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MHF4 / MHF4L (I-PEX)",
@@ -4281,7 +5257,9 @@
   "legacy": "No",
   "notes": "Even smaller than U.FL/MHF. 0.8mm height. Used on latest Intel/Qualcomm WiFi 6E/7 M.2 modules. NOT compatible with U.FL/MHF — different mating interface.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SSMA / SSMC / SMP / SMPM",
@@ -4299,7 +5277,9 @@
   "legacy": "No",
   "notes": "SSMA: 40GHz. SMP/SMPM: push-on blind-mate to 40GHz+. Used in 5G mmWave and phased array where hundreds of RF connections needed. SMPM bullet adapters for board-to-board RF.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "2.92mm (K-Connector, Wiltron)",
@@ -4317,7 +5297,9 @@
   "legacy": "No",
   "notes": "DC to 40GHz. Mates with SMA and 3.5mm connectors (same thread). Common as primary connector on 40GHz-class VNAs (Keysight PNA/ENA).",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "2.4mm",
@@ -4335,7 +5317,9 @@
   "legacy": "No",
   "notes": "DC to 50GHz. Does NOT mate with SMA (different thread). Mates with 1.85mm connector. Used on high-end VNAs.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "1.85mm (V-Connector)",
@@ -4353,7 +5337,9 @@
   "legacy": "No",
   "notes": "DC to 67GHz. Mates with 2.4mm connector. Fragile and expensive.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "1.0mm",
@@ -4371,7 +5357,9 @@
   "legacy": "No",
   "notes": "DC to 110GHz. Highest frequency standard coaxial connector. Extremely fragile. Used on Keysight/R&S/Anritsu top-tier VNAs.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "F-Type (75Ω)",
@@ -4389,7 +5377,9 @@
   "legacy": "Declining (fiber/streaming replacing CATV)",
   "notes": "75Ω only. Unique — center pin of connector IS the cable's center conductor (no separate contact). Cheap but impedance-sensitive to installation quality. Crimp, compression, or push-on termination.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "PAL/Belling-Lee (IEC 61169-2)",
@@ -4407,7 +5397,9 @@
   "legacy": "Declining",
   "notes": "Standard TV antenna connector in India (Doordarshan/DTH RF output), Europe, Australia. Male = plug with center pin, Female = jack (socket). Being phased out as TVs move to HDMI/streaming.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "QMA",
@@ -4425,7 +5417,9 @@
   "legacy": "No",
   "notes": "Same electrical performance as SMA but with snap-lock instead of threaded — 75% faster mating. Gaining traction in telecom and tactical military applications.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4A — RF / COAXIAL CONNECTORS"
+  "subcategory": "4A — RF / COAXIAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "LC (Lucent Connector)",
@@ -4443,7 +5437,9 @@
   "legacy": "No",
   "notes": "Dominant fiber connector for structured cabling and transceivers. Half the size of SC. Duplex clip joins two simplex LCs. UPC (blue) and APC (green angled) polish variants.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4B — FIBER OPTIC CONNECTORS"
+  "subcategory": "4B — FIBER OPTIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SC (Subscriber Connector / Square Connector)",
@@ -4461,7 +5457,9 @@
   "legacy": "No",
   "notes": "Larger than LC. Push-pull snap-in mechanism. APC variant (angled, green) standard for FTTH/CATV to minimize back-reflection. Very common on GPON ONTs in India (BSNL FTTH, Jio Fiber).",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4B — FIBER OPTIC CONNECTORS"
+  "subcategory": "4B — FIBER OPTIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ST (Straight Tip)",
@@ -4479,7 +5477,9 @@
   "legacy": "Declining",
   "notes": "Bayonet-coupled — twist to lock. Was dominant LAN fiber connector before LC/SC. Still found in older buildings and some military installations. No duplex version.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4B — FIBER OPTIC CONNECTORS"
+  "subcategory": "4B — FIBER OPTIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "FC (Ferrule Connector)",
@@ -4497,7 +5497,9 @@
   "legacy": "Declining (LC replacing)",
   "notes": "Screw-on for vibration resistance and repeatability. APC variant critical for analog CATV and DWDM. Being replaced by LC-APC in most new installations. Still standard on some OTDR and test equipment.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4B — FIBER OPTIC CONNECTORS"
+  "subcategory": "4B — FIBER OPTIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MTP/MPO (cross-ref from Phase 3)",
@@ -4515,7 +5517,9 @@
   "legacy": "No",
   "notes": "Multi-fiber push-on. 12F standard; 24/32F for 400G+. Polarity A/B/C methods. MTP (US Conec) is high-performance MPO.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4B — FIBER OPTIC CONNECTORS"
+  "subcategory": "4B — FIBER OPTIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "E2000 (LSH)",
@@ -4533,7 +5537,9 @@
   "legacy": "No",
   "notes": "Integrated spring-loaded protective cap covers ferrule when unmated — prevents contamination. APC variant standard for DWDM. Dominant in European telecom but rare elsewhere.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4B — FIBER OPTIC CONNECTORS"
+  "subcategory": "4B — FIBER OPTIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "MU (Miniature Unit)",
@@ -4551,7 +5557,9 @@
   "legacy": "Declining outside Japan",
   "notes": "Same 1.25mm ferrule as LC but different latch mechanism. NTT-developed. Functionally similar to LC but not interchangeable.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4B — FIBER OPTIC CONNECTORS"
+  "subcategory": "4B — FIBER OPTIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "FDDI/MIC Connector",
@@ -4569,7 +5577,9 @@
   "legacy": "Yes — Legacy",
   "notes": "FDDI (Fiber Distributed Data Interface) was pre-Ethernet high-speed LAN. Dual counter-rotating ring. Completely replaced by Ethernet.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4B — FIBER OPTIC CONNECTORS"
+  "subcategory": "4B — FIBER OPTIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SMA 905/906 (Fiber)",
@@ -4587,7 +5597,9 @@
   "legacy": "Declining in telecom, alive in specialty",
   "notes": "Same thread as RF SMA but carries fiber — do not confuse with RF SMA. 905 = flat ferrule, 906 = stepped ferrule. Still used for specialty fiber (medical probes, spectroscopy, power delivery fiber).",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4B — FIBER OPTIC CONNECTORS"
+  "subcategory": "4B — FIBER OPTIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Expanded Beam Connector (EB)",
@@ -4605,7 +5617,9 @@
   "legacy": "No",
   "notes": "Uses lenses to expand beam at connector face — dramatically reduces sensitivity to dirt, scratches, and misalignment. Critical for field-deployed military fiber. Higher insertion loss than physical-contact (PC) connectors.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4B — FIBER OPTIC CONNECTORS"
+  "subcategory": "4B — FIBER OPTIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "XLR-3 (3-pin)",
@@ -4623,7 +5637,14 @@
   "legacy": "No",
   "notes": "THE professional audio connector. Balanced connection rejects noise over long runs. Male = output (mic), Female = input (mixer). AES/EBU digital audio also uses XLR-3 (110Ω). Neutrik is dominant manufacturer.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 3,
+   "pinMax": 3
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "XLR-4 (4-pin)",
@@ -4641,7 +5662,14 @@
   "legacy": "No",
   "notes": "4-pin XLR used for DC power in cinema/broadcast. Arri, RED, Canon cinema cameras use 4-pin XLR for 12V power input. Also standard for professional intercom headsets.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 4,
+   "pinMax": 4
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "XLR-5 (5-pin)",
@@ -4659,7 +5687,14 @@
   "legacy": "No",
   "notes": "DMX512 standard specifies 5-pin XLR (not 3-pin, despite 3-pin being commonly used). Pin 4/5 reserved for secondary data pair. Neutrik and Switchcraft are main suppliers.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 5,
+   "pinMax": 5
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "XLR-7 (7-pin)",
@@ -4677,7 +5712,14 @@
   "legacy": "No",
   "notes": "Niche usage — primarily tube condenser microphone external PSUs that carry high voltage for tube bias plus balanced audio return.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 7,
+   "pinMax": 7
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Neutrik Speakon (NL2/NL4/NL8)",
@@ -4695,7 +5737,9 @@
   "legacy": "No",
   "notes": "Replaced 1/4\" TS for speaker connections in professional audio — touch-safe, locking, high current. NL4 carries bi-amp (2 channels). NL8 for tri-amp or quad-amp. Industry standard for live sound.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Neutrik powerCON (NAC3FCA/FCB)",
@@ -4713,7 +5757,9 @@
   "legacy": "No",
   "notes": "Blue = power IN, Gray = power OUT (daisy-chain). NOT hot-pluggable (unlike powerCON TRUE1). Replaced IEC and stage pin in many entertainment applications. Based on Neutrik XLR-style shell.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Neutrik powerCON TRUE1",
@@ -4731,7 +5777,9 @@
   "legacy": "No",
   "notes": "TRUE1 variant is rated for mating/unmating under load — critical distinction from standard powerCON.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "1/4\" TRS (6.35mm Stereo/Balanced)",
@@ -4749,7 +5797,9 @@
   "legacy": "No",
   "notes": "Tip=Left/Hot+, Ring=Right/Cold-, Sleeve=Ground. TRS can carry balanced mono OR unbalanced stereo — context-dependent. Locking variants exist (Neutrik locking jack).",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "1/4\" TS (6.35mm Mono)",
@@ -4767,7 +5817,9 @@
   "legacy": "No",
   "notes": "High-impedance instrument level. Susceptible to noise over long runs. Always use shielded instrument cable, not speaker cable.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "3.5mm TRS/TRRS (1/8\" mini-jack)",
@@ -4785,7 +5837,9 @@
   "legacy": "No",
   "notes": "TRRS adds microphone contact. Two TRRS standards: CTIA (Tip=L, Ring1=R, Ring2=GND, Sleeve=Mic) used by Apple/Samsung/most, OMTP (Ring2=Mic, Sleeve=GND) used by older Nokia/Sony. Incompatible pinouts cause mic/ground swap.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "2.5mm TRS/TRRS",
@@ -4803,7 +5857,9 @@
   "legacy": "Declining",
   "notes": "Smaller than 3.5mm. Still standard on Motorola/Kenwood/Baofeng two-way radio headsets (often combined with 3.5mm in dual-plug headset). Being replaced by Bluetooth/USB-C.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "RCA (Phono Connector)",
@@ -4821,7 +5877,9 @@
   "legacy": "Declining for video, alive for audio",
   "notes": "Color-coded: White/Red = stereo audio L/R, Yellow = composite video, Red/Green/Blue = component video (YPbPr), Orange = S/PDIF digital. 75Ω for video/S/PDIF. Ubiquitous in home audio.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "TOSLINK (Optical S/PDIF)",
@@ -4839,7 +5897,9 @@
   "legacy": "Declining (HDMI ARC replacing)",
   "notes": "Toshiba-developed. Carries PCM stereo or compressed 5.1 (Dolby Digital/DTS). Cannot carry lossless surround (Atmos) — use HDMI eARC instead. Mini-TOSLINK uses 3.5mm form factor (found on older MacBooks).",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "BNC (SDI Video)",
@@ -4857,7 +5917,9 @@
   "legacy": "No",
   "notes": "SDI = Serial Digital Interface. Uses 75Ω BNC (NOT 50Ω test BNC). Uncompressed video. SD-SDI: 270Mbps, HD-SDI: 1.485Gbps, 3G-SDI: 2.97Gbps, 12G-SDI: 11.88Gbps (4K). Broadcast standard globally.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Lemo (0B/1B/2B Push-Pull)",
@@ -4875,7 +5937,9 @@
   "legacy": "No",
   "notes": "Swiss precision connector. Self-latching push-pull is the defining feature. Used in any application demanding quick, secure, repeated connection in premium/high-reliability context. Expensive but excellent.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Fischer Core Series (Push-Pull)",
@@ -4893,7 +5957,9 @@
   "legacy": "No",
   "notes": "Direct competitor to LEMO. IP68 sealed variants available. Used extensively in defense (soldier-worn electronics, tactical comms). Fischer Freedom series is breakaway contact.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ODU AMC/MINI-SNAP Push-Pull",
@@ -4911,7 +5977,9 @@
   "legacy": "No",
   "notes": "German competitor to LEMO/Fischer. AMC = Advanced Military Connector. MINI-SNAP for commercial. Break-away variant for safety-critical applications (surgical instruments).",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SocaPex (19-pin)",
@@ -4929,7 +5997,9 @@
   "legacy": "No",
   "notes": "Carries 6 independent 20A circuits in one connector — replaces 6 individual powerCON or stage pin runs. Standard for theater/concert stage lighting infrastructure.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "EtherCON (Neutrik)",
@@ -4947,7 +6017,9 @@
   "legacy": "No",
   "notes": "Standard RJ45 cable inside ruggedized XLR-style housing. Protects fragile RJ45 tab in touring environments. Panel-mount uses standard D-series XLR cutout.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "opticalCON (Neutrik)",
@@ -4965,7 +6037,9 @@
   "legacy": "No",
   "notes": "Ruggedized fiber in XLR-style housing. LC duplex inside. Dust caps and rugged shell protect fiber in touring/broadcast field use.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4C — AUDIO / VIDEO / BROADCAST"
+  "subcategory": "4C — AUDIO / VIDEO / BROADCAST",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Standard Thermocouple Connector (flat 2-pin)",
@@ -4983,7 +6057,9 @@
   "legacy": "No",
   "notes": "Color-coded by TC type: Yellow=K, Red/Blue=T, Red/White=J, Red/Purple=E (ANSI). IEC uses different colors. Contacts must be same alloy as TC wire — standard copper contacts introduce measurement error. Male=flat prongs, Female=rounded sockets.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS"
+  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Miniature Thermocouple Connector",
@@ -5001,7 +6077,9 @@
   "legacy": "No",
   "notes": "Same color-coding and alloy rules as standard TC connectors. Smaller footprint for handheld instruments. OMEGA brand connectors are de facto standard.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS"
+  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "RTD 3-wire/4-wire Terminal",
@@ -5019,7 +6097,9 @@
   "legacy": "No",
   "notes": "RTD sensors use generic terminals — no dedicated connector. 3-wire compensates for lead resistance partially. 4-wire eliminates lead resistance error completely. PT100 = 100Ω at 0°C. Often terminated on M12 A-coded in industrial settings.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS"
+  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Load Cell Connector (4-wire/6-wire)",
@@ -5037,7 +6117,9 @@
   "legacy": "No",
   "notes": "No universal connector standard — load cells use whatever connector the manufacturer specifies. Typical: shielded 4-core cable with shield as 5th conductor. High-end uses 6-wire (adds sense lines to compensate cable resistance). Binder circular or D-sub common on precision instruments.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS"
+  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Accelerometer / Vibration Sensor (BNC or 10-32 Microdot)",
@@ -5055,7 +6137,9 @@
   "legacy": "No",
   "notes": "IEPE/ICP sensors use constant-current excitation (typically 4mA) with AC-coupled signal superimposed on DC bias. 10-32 UNF Microdot is the miniature threaded connector on small accelerometers. BNC adapter pigtails common.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS"
+  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "LVDT/RVDT Connector",
@@ -5073,7 +6157,9 @@
   "legacy": "No",
   "notes": "LVDT/RVDT are analog sensors — output is AC voltage proportional to displacement. Signal conditioning (demodulation) is external. No standard connector — mil uses MS circular, industrial uses M12 or D-sub.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS"
+  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Eddy Current Probe Connector (BNC/Binder)",
@@ -5091,7 +6177,9 @@
   "legacy": "No",
   "notes": "Eddy current probes typically have integral cable (non-removable) that terminates in BNC or proprietary connector to the driver/proximitor. API 670 specifies installation requirements for turbomachinery protection.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS"
+  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Strain Gauge / Wheatstone Bridge Terminal",
@@ -5109,7 +6197,9 @@
   "legacy": "No",
   "notes": "Similar to load cell — Wheatstone bridge measurement. DAQ systems (HBM/HBK, NI) use D-sub 9 or 15 pin for bridge inputs. Strain gauges themselves are soldered/bonded — connector is at the cable-to-instrument interface.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS"
+  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Geophone Connector (military/Bendix)",
@@ -5127,7 +6217,9 @@
   "legacy": "No",
   "notes": "Geophones produce millivolt-level analog signal from ground vibration. Seismic acquisition systems (Sercel, INOVA) use proprietary connectors for geophone strings. Military UGS use mil-spec circular.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS"
+  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "pH/ORP Probe Connector (BNC)",
@@ -5145,7 +6237,9 @@
   "legacy": "No",
   "notes": "Uses BNC connector but the cable is high-impedance (triaxial or high-insulation coax). Standard 50Ω BNC cables will cause measurement drift. Low-noise triax cable required. VP (Vario Pin) connector is alternative in some Endress+Hauser probes.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS"
+  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Flow Meter Pulse Output (DIN 43650 / M12)",
@@ -5163,7 +6257,14 @@
   "legacy": "No",
   "notes": "DIN 43650 Form A (18x18mm industry standard) used on solenoid valves and flow meter outputs. Form B (smaller) and Form C (smallest). Being replaced by M12 A-coded in new designs.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS"
+  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 3,
+   "pinMax": 12
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DIN 43650 Form A (Solenoid Valve Connector)",
@@ -5181,7 +6282,14 @@
   "legacy": "No",
   "notes": "THE universal solenoid valve connector. 18mm x 18mm square form. Central screw clamps connector to valve solenoid pins. LED/varistor/diode suppression circuits available integrated into connector body.",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS"
+  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 3,
+   "pinMax": 3
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Pressure Transducer Connector (Packard Metripack / DIN 43650 / M12)",
@@ -5199,7 +6307,14 @@
   "legacy": "No",
   "notes": "Automotive pressure sensors often use Packard Metripack or Deutsch. Industrial uses DIN 43650 or M12. Output: 0.5–4.5V ratiometric (automotive) or 4-20mA (industrial).",
   "category": "RF / Fiber / Specialty",
-  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS"
+  "subcategory": "4D — THERMOCOUPLE / SENSOR-SPECIFIC CONNECTORS",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 3,
+   "pinMax": 4
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "LEMO B-Series (Plastic, Medical)",
@@ -5217,7 +6332,9 @@
   "legacy": "No",
   "notes": "Plastic body for electrical isolation (patient safety). Color-coded shells for function identification (SpO2 = blue, ECG = gray, etc.). Sterilizable variants for surgical use. Self-latching prevents accidental disconnection during procedures.",
   "category": "Specialty - Extreme",
-  "subcategory": "5A — MEDICAL CONNECTORS"
+  "subcategory": "5A — MEDICAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "LEMO T-Series (Elbow / Low-Profile)",
@@ -5235,7 +6352,9 @@
   "legacy": "No",
   "notes": "Right-angle variant of LEMO push-pull for low-profile body-worn applications. Reduces cable strain and snag risk on patient.",
   "category": "Specialty - Extreme",
-  "subcategory": "5A — MEDICAL CONNECTORS"
+  "subcategory": "5A — MEDICAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Redel SP (LEMO Plastic Circular)",
@@ -5253,7 +6372,14 @@
   "legacy": "No",
   "notes": "Designed for repeated sterilization (autoclave at 134°C). Multiple keying options prevent cross-connection between different instrument types. High mating cycle life (5000+).",
   "category": "Specialty - Extreme",
-  "subcategory": "5A — MEDICAL CONNECTORS"
+  "subcategory": "5A — MEDICAL CONNECTORS",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 2,
+   "pinMax": 14
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ODU MEDI-SNAP",
@@ -5271,7 +6397,9 @@
   "legacy": "No",
   "notes": "Breakaway feature disconnects cleanly under excessive pull — prevents patient injury or device damage if cable is snagged. Sterilizable. Color-coded.",
   "category": "Specialty - Extreme",
-  "subcategory": "5A — MEDICAL CONNECTORS"
+  "subcategory": "5A — MEDICAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Fischer MiniMax (High-Density Medical)",
@@ -5289,7 +6417,9 @@
   "legacy": "No",
   "notes": "Extremely high pin density for size — 75 contacts in 12mm shell. Mixed signal+power+coax+fluid in single connector possible. Used in da Vinci surgical robot cabling.",
   "category": "Specialty - Extreme",
-  "subcategory": "5A — MEDICAL CONNECTORS"
+  "subcategory": "5A — MEDICAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Omnetics Nano Circular / Nano Strip",
@@ -5307,7 +6437,16 @@
   "legacy": "No",
   "notes": "Ultra-miniature for implantable and neuroscience applications. Biocompatible plating options. Used with Utah arrays and other neural electrode arrays. Omnetics is the dominant supplier for neuroscience connectors.",
   "category": "Specialty - Extreme",
-  "subcategory": "5A — MEDICAL CONNECTORS"
+  "subcategory": "5A — MEDICAL CONNECTORS",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.635,
+   "pinMin": 4,
+   "pinMax": 25,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Hypertronics (Hermetic Medical)",
@@ -5325,7 +6464,9 @@
   "legacy": "No",
   "notes": "Hermetic feedthrough connectors for implantable medical devices. Must maintain hermeticity (leak rate <1×10⁻⁸ atm·cc/sec He) for device lifetime (10+ years). Biocompatible materials (titanium, platinum, alumina ceramic).",
   "category": "Specialty - Extreme",
-  "subcategory": "5A — MEDICAL CONNECTORS"
+  "subcategory": "5A — MEDICAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ECG Snap Connector (4mm snap stud)",
@@ -5343,7 +6484,9 @@
   "legacy": "No",
   "notes": "4mm press stud mates with disposable Ag/AgCl gel electrode. Lead wires terminated with snap connector on one end, device-specific connector (LEMO, proprietary) on other end. Color-coded by lead placement (AHA vs IEC color scheme).",
   "category": "Specialty - Extreme",
-  "subcategory": "5A — MEDICAL CONNECTORS"
+  "subcategory": "5A — MEDICAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ECG Banana/Pin Connector (DIN 42802)",
@@ -5361,7 +6504,14 @@
   "legacy": "No",
   "notes": "1.5mm safety banana pin — smaller than standard 4mm lab banana. European/Indian standard for reusable ECG electrodes. Cannot be inserted into standard 4mm lab banana sockets — patient safety design.",
   "category": "Specialty - Extreme",
-  "subcategory": "5A — MEDICAL CONNECTORS"
+  "subcategory": "5A — MEDICAL CONNECTORS",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 1,
+   "pinMax": 12
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SpO2 Sensor Connector (Nellcor/Masimo/Philips)",
@@ -5379,7 +6529,9 @@
   "legacy": "No",
   "notes": "Every SpO2 manufacturer uses a proprietary connector — Nellcor OxiMax (DB-9 based), Masimo LNCS (proprietary), Philips (8-pin), GE (TruSignal). NOT interchangeable. Connector encodes sensor type and calibration data.",
   "category": "Specialty - Extreme",
-  "subcategory": "5A — MEDICAL CONNECTORS"
+  "subcategory": "5A — MEDICAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Luer Lock / Luer Slip (Electrical Hybrid)",
@@ -5397,7 +6549,9 @@
   "legacy": "No",
   "notes": "Hybrid connectors combining Luer fluid path with electrical contacts for smart medical devices. ISO 80369 series defines different Luer variants to prevent misconnections between applications (enteral/IV/respiratory).",
   "category": "Specialty - Extreme",
-  "subcategory": "5A — MEDICAL CONNECTORS"
+  "subcategory": "5A — MEDICAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Medical Gas Connector (DISS / NIST)",
@@ -5415,7 +6569,9 @@
   "legacy": "No",
   "notes": "DISS (Diameter Index Safety System) uses unique thread diameter per gas to prevent cross-connection. NIST (Non-Interchangeable Screw Thread) similar concept for British/Commonwealth standard. Indian hospitals use a mix of both.",
   "category": "Specialty - Extreme",
-  "subcategory": "5A — MEDICAL CONNECTORS"
+  "subcategory": "5A — MEDICAL CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SubConn Micro Circular",
@@ -5433,7 +6589,14 @@
   "legacy": "No",
   "notes": "Wet-mateable to 10,000m depth. Molded polyurethane body with stainless or titanium shell. Standard in scientific and commercial ROV industry. Oil-filled contacts for reliable underwater mating.",
   "category": "Specialty - Extreme",
-  "subcategory": "5B — SUBSEA / MARINE CONNECTORS"
+  "subcategory": "5B — SUBSEA / MARINE CONNECTORS",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 2,
+   "pinMax": 13
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SubConn Power Series",
@@ -5451,7 +6614,9 @@
   "legacy": "No",
   "notes": "High-power subsea connector for ROV umbilicals and subsea production systems. Pressure-rated to 10,000m.",
   "category": "Specialty - Extreme",
-  "subcategory": "5B — SUBSEA / MARINE CONNECTORS"
+  "subcategory": "5B — SUBSEA / MARINE CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SubConn Ethernet / Fiber",
@@ -5469,7 +6634,9 @@
   "legacy": "No",
   "notes": "Copper Ethernet (100/1000BASE-T) and fiber optic variants for high-bandwidth subsea data. Wet-mateable fiber optic uses expanded beam technology to tolerate seawater between fiber faces during mating.",
   "category": "Specialty - Extreme",
-  "subcategory": "5B — SUBSEA / MARINE CONNECTORS"
+  "subcategory": "5B — SUBSEA / MARINE CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Impulse MCIL/MCBH (MIL-spec Subsea)",
@@ -5487,7 +6654,9 @@
   "legacy": "No",
   "notes": "MCIL = in-line cable connector, MCBH = bulkhead. Titanium and PEEK housings for full ocean depth (11,000m). Standard on WHOI (Woods Hole) and MBARI instruments.",
   "category": "Specialty - Extreme",
-  "subcategory": "5B — SUBSEA / MARINE CONNECTORS"
+  "subcategory": "5B — SUBSEA / MARINE CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Burton Subsea Connector",
@@ -5505,7 +6674,9 @@
   "legacy": "No",
   "notes": "High-reliability connectors for subsea oil & gas production. Rated for 25+ year subsea deployment. ROV-installable variants for deepwater fields. Combined electrical + hydraulic + optical connectors available.",
   "category": "Specialty - Extreme",
-  "subcategory": "5B — SUBSEA / MARINE CONNECTORS"
+  "subcategory": "5B — SUBSEA / MARINE CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Wet-Mate Connector (Siemens/OneSubsea, Teledyne)",
@@ -5523,7 +6694,9 @@
   "legacy": "No",
   "notes": "Designed to be connected and disconnected underwater by ROV, without dry environment. Critical for subsea field reconfiguration. Siemens/OneSubsea DigiTAL and Teledyne ODI are major suppliers.",
   "category": "Specialty - Extreme",
-  "subcategory": "5B — SUBSEA / MARINE CONNECTORS"
+  "subcategory": "5B — SUBSEA / MARINE CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Marine Cable Gland (IP68)",
@@ -5541,7 +6714,9 @@
   "legacy": "No",
   "notes": "Not a signal connector but critical for marine/offshore cable management. Brass, stainless, or polyamide body. Double-compression for enhanced sealing. EMC versions with braided shield contact.",
   "category": "Specialty - Extreme",
-  "subcategory": "5B — SUBSEA / MARINE CONNECTORS"
+  "subcategory": "5B — SUBSEA / MARINE CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Amphenol Ecomate Aquarius",
@@ -5559,7 +6734,9 @@
   "legacy": "No",
   "notes": "Ruggedized circular with IP68/IP69K sealing. Thermoplastic body — corrosion-free for marine environments. Used as cost-effective alternative to full subsea connectors in shallow/splash zone applications.",
   "category": "Specialty - Extreme",
-  "subcategory": "5B — SUBSEA / MARINE CONNECTORS"
+  "subcategory": "5B — SUBSEA / MARINE CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Space-Grade D-sub (MIL-DTL-24308, Class K/S)",
@@ -5577,7 +6754,14 @@
   "legacy": "No",
   "notes": "Standard D-sub with space-grade screening: outgassing per ASTM E595, radiation testing, thermal vacuum qualification, lot acceptance testing. ESA ECSS and NASA EEE-INST-002 specify screening levels.",
   "category": "Specialty - Extreme",
-  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS"
+  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 9,
+   "pinMax": 50
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Micro-D Space-Grade (MIL-DTL-83513, Class K/S)",
@@ -5595,7 +6779,16 @@
   "legacy": "No",
   "notes": "Most common space connector family. Mass-critical — Micro-D saves ~60% mass vs standard D-sub. Outgassing-qualified materials. Pin counts up to 100 in small shell.",
   "category": "Specialty - Extreme",
-  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS"
+  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.27,
+   "pinMin": 9,
+   "pinMax": 100,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Nano-D Space-Grade (MIL-DTL-32139, Class K/S)",
@@ -5613,7 +6806,16 @@
   "legacy": "No",
   "notes": "Smallest standard space connector. Critical for CubeSat where volume/mass is extremely constrained. 0.635mm pitch. Limited current capacity — signal-only in most applications.",
   "category": "Specialty - Extreme",
-  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS"
+  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.635,
+   "pinMin": 9,
+   "pinMax": 51,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Hermetic Feedthrough (Glass-to-Metal Seal)",
@@ -5631,7 +6833,9 @@
   "legacy": "No",
   "notes": "Glass-to-metal or ceramic-to-metal seal maintains vacuum/pressure boundary. ConFlat (CF) or KF flange mounting for vacuum systems. Critical spec: helium leak rate. Used in CERN detectors, ITER diagnostics, ISRO satellite instruments.",
   "category": "Specialty - Extreme",
-  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS"
+  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Hermetic Feedthrough (Ceramic-to-Metal)",
@@ -5649,7 +6853,9 @@
   "legacy": "No",
   "notes": "Ceramic (Al₂O₃) provides better HV insulation and higher temp than glass seal. Used in semiconductor fab equipment (etch chambers, CVD), space ion thrusters (ISRO GSLV, NASA NEXT), and fusion research.",
   "category": "Specialty - Extreme",
-  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS"
+  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SMA Hermetic (Vacuum RF Feedthrough)",
@@ -5667,7 +6873,9 @@
   "legacy": "No",
   "notes": "Standard SMA interface with hermetic glass/ceramic seal on a KF or CF vacuum flange. Maintains 50Ω impedance through vacuum wall. Used in every vacuum-based RF application from semiconductor to space.",
   "category": "Specialty - Extreme",
-  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS"
+  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Glenair Mighty Mouse (Series 801/805/807)",
@@ -5685,7 +6893,9 @@
   "legacy": "No",
   "notes": "Glenair proprietary miniaturized circular connectors. Smaller shells than equivalent 38999 for same pin count. Lightweight composite shells available for mass-critical space applications. Used on ISRO and NASA spacecraft.",
   "category": "Specialty - Extreme",
-  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS"
+  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Space-Grade Fiber Optic (MIL-PRF-29504, Diamond AVIM)",
@@ -5703,7 +6913,9 @@
   "legacy": "No",
   "notes": "Space-qualified fiber termini. Diamond AVIM is the dominant space fiber connector (used on JWST). Radiation-hardened fiber (fluorine-doped or pure silica core) required for space radiation environment.",
   "category": "Specialty - Extreme",
-  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS"
+  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Harwin Datamate / Gecko",
@@ -5721,7 +6933,16 @@
   "legacy": "No",
   "notes": "Harwin connectors are very popular in CubeSat/SmallSat community due to smaller size/mass than Micro-D while having space-qualified variants. Gecko 1.25mm pitch is popular for high-density CubeSat stacks. ISRO and many NewSpace companies use Harwin extensively.",
   "category": "Specialty - Extreme",
-  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS"
+  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.0,
+   "pinMin": 2,
+   "pinMax": 50,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Omnetics Latching Nano / Micro Circular",
@@ -5739,7 +6960,16 @@
   "legacy": "No",
   "notes": "Omnetics adds latching mechanism to Micro-D/Nano-D form factor — prevents accidental disconnection under vibration. Popular for space instruments and military avionics where standard screw-lock is too slow for field use.",
   "category": "Specialty - Extreme",
-  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS"
+  "subcategory": "5C — SPACE / VACUUM / HERMETIC CONNECTORS",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.27,
+   "pinMin": 9,
+   "pinMax": 25,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Ex d Flameproof Circular Connector",
@@ -5757,7 +6987,14 @@
   "legacy": "No",
   "notes": "Flameproof enclosure — internal explosion cannot propagate to surrounding atmosphere. Flame path (thread engagement length + gap) is precisely specified and certified. Cable entry via Ex d cable gland.",
   "category": "Specialty - Extreme",
-  "subcategory": "5D — HAZARDOUS AREA (ATEX / IECEx)"
+  "subcategory": "5D — HAZARDOUS AREA (ATEX / IECEx)",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 3,
+   "pinMax": 61
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Ex e Increased Safety Connector",
@@ -5775,7 +7012,9 @@
   "legacy": "No",
   "notes": "Increased safety — no sparking or hot surfaces under normal operation. Enhanced creepage and clearance distances prevent arc formation. Used for lighting, motors, and junction boxes in hazardous areas.",
   "category": "Specialty - Extreme",
-  "subcategory": "5D — HAZARDOUS AREA (ATEX / IECEx)"
+  "subcategory": "5D — HAZARDOUS AREA (ATEX / IECEx)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Ex i Intrinsically Safe Connector (Turck/Pepperl+Fuchs)",
@@ -5793,7 +7032,9 @@
   "legacy": "No",
   "notes": "Intrinsically safe — energy in circuit is too low to ignite explosive atmosphere under any fault condition. Ex ia = safe with 2 faults (Zone 0). Ex ib = safe with 1 fault (Zone 1). IS barrier/isolator on safe side limits voltage/current.",
   "category": "Specialty - Extreme",
-  "subcategory": "5D — HAZARDOUS AREA (ATEX / IECEx)"
+  "subcategory": "5D — HAZARDOUS AREA (ATEX / IECEx)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Ex d Cable Gland (Flameproof)",
@@ -5811,7 +7052,9 @@
   "legacy": "No",
   "notes": "Certified flameproof cable gland — maintains Ex d integrity of enclosure. Inner and outer seals. Barrier type for cable with different armor/braid. Thread: M20, M25, M32, M40, M50, M63, M75 standard. Indian PESO (Petroleum & Explosives Safety Organisation) certification required for Indian hazardous installations.",
   "category": "Specialty - Extreme",
-  "subcategory": "5D — HAZARDOUS AREA (ATEX / IECEx)"
+  "subcategory": "5D — HAZARDOUS AREA (ATEX / IECEx)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ATEX/IECEx M12 Connector (Zone 2/22)",
@@ -5829,7 +7072,14 @@
   "legacy": "No",
   "notes": "Standard M12 connectors certified for Zone 2/22 — Type n (non-sparking). Allows standard industrial sensors in Zone 2 without full Ex d/e treatment. Many IFM, Sick, Balluff sensors available in Ex nA M12 variants.",
   "category": "Specialty - Extreme",
-  "subcategory": "5D — HAZARDOUS AREA (ATEX / IECEx)"
+  "subcategory": "5D — HAZARDOUS AREA (ATEX / IECEx)",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 3,
+   "pinMax": 12
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Stahl / R. Stahl IS Interface Connector",
@@ -5847,7 +7097,9 @@
   "legacy": "No",
   "notes": "R. Stahl and Pepperl+Fuchs make complete IS fieldbus infrastructure. FISCO (Fieldbus Intrinsically Safe COncept) defines entity parameters for IS fieldbus segments. Simplified IS certification for fieldbus.",
   "category": "Specialty - Extreme",
-  "subcategory": "5D — HAZARDOUS AREA (ATEX / IECEx)"
+  "subcategory": "5D — HAZARDOUS AREA (ATEX / IECEx)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Kemlon HP/HT Connector",
@@ -5865,7 +7117,9 @@
   "legacy": "No",
   "notes": "Rated for extreme downhole conditions: 260°C, 30,000 psi. Metal-to-metal seal critical at these pressures. Used in ESP motor connections and logging tool strings.",
   "category": "Specialty - Extreme",
-  "subcategory": "5E — DOWNHOLE / OIL & GAS (HP/HT)"
+  "subcategory": "5E — DOWNHOLE / OIL & GAS (HP/HT)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Greene Tweed / Seal-Connect",
@@ -5883,7 +7137,9 @@
   "legacy": "No",
   "notes": "Combines electrical connection with qualified pressure seal at wellhead/subsea tree. Pressure integrity verified via test port before well activation.",
   "category": "Specialty - Extreme",
-  "subcategory": "5E — DOWNHOLE / OIL & GAS (HP/HT)"
+  "subcategory": "5E — DOWNHOLE / OIL & GAS (HP/HT)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Glenair / Teledyne Downhole Circular",
@@ -5901,7 +7157,14 @@
   "legacy": "No",
   "notes": "Smaller pin counts for sensor signals. Must withstand thermal cycling during tripping in/out of well. Vibration from drilling operations. Often deployed with wireline or coiled tubing.",
   "category": "Specialty - Extreme",
-  "subcategory": "5E — DOWNHOLE / OIL & GAS (HP/HT)"
+  "subcategory": "5E — DOWNHOLE / OIL & GAS (HP/HT)",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 2,
+   "pinMax": 22
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ESP Motor Pothead Connector",
@@ -5919,7 +7182,9 @@
   "legacy": "No",
   "notes": "Critical connection between downhole power cable and ESP motor. Failure here kills the ESP — well must be pulled. Multi-barrier seal design. Round cable to flat motor lead transition.",
   "category": "Specialty - Extreme",
-  "subcategory": "5E — DOWNHOLE / OIL & GAS (HP/HT)"
+  "subcategory": "5E — DOWNHOLE / OIL & GAS (HP/HT)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Wet-Connect / Inductive Coupler (Subsea Well)",
@@ -5937,7 +7202,9 @@
   "legacy": "No",
   "notes": "No physical electrical contact — power and data transferred inductively through pressure boundary. Eliminates penetration through pressure barrier. Used in permanent subsea well monitoring installations.",
   "category": "Specialty - Extreme",
-  "subcategory": "5E — DOWNHOLE / OIL & GAS (HP/HT)"
+  "subcategory": "5E — DOWNHOLE / OIL & GAS (HP/HT)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Amphenol Nuclear (Series 1/2/3)",
@@ -5955,7 +7222,9 @@
   "legacy": "No",
   "notes": "Must survive LOCA (Loss of Coolant Accident): 400°C steam, chemical spray, 200+ Mrad gamma radiation. Qualified per IEEE 323 (Class 1E). Amphenol and TE are primary suppliers. Indian NPCIL (Nuclear Power Corporation) uses these in PHWR and LWR reactors.",
   "category": "Specialty - Extreme",
-  "subcategory": "5F — NUCLEAR-RATED CONNECTORS"
+  "subcategory": "5F — NUCLEAR-RATED CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "EPC / Electric Penetration Assembly (Nuclear)",
@@ -5973,7 +7242,9 @@
   "legacy": "No",
   "notes": "The most critical nuclear connector — maintains containment integrity. Must pass LOCA qualification, seismic qualification (IEEE 344), and radiation aging. Helium leak tested. Design life 40–60 years. Indian Kudankulam VVER and upcoming pressurized heavy water reactors use these.",
   "category": "Specialty - Extreme",
-  "subcategory": "5F — NUCLEAR-RATED CONNECTORS"
+  "subcategory": "5F — NUCLEAR-RATED CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Souriau 8500 Series (Radiation-Hardened)",
@@ -5991,7 +7262,9 @@
   "legacy": "No",
   "notes": "Materials selected for radiation resistance: PEEK, glass-filled polyimide, ceramic insulators. Rated for 1 GGy (10⁹ Gy) integrated gamma dose. Used in CERN accelerator tunnels and nuclear reprocessing facilities. Standard 38999 insert patterns in radiation-hardened housings.",
   "category": "Specialty - Extreme",
-  "subcategory": "5F — NUCLEAR-RATED CONNECTORS"
+  "subcategory": "5F — NUCLEAR-RATED CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Conax Nuclear Feedthrough",
@@ -6009,7 +7282,9 @@
   "legacy": "No",
   "notes": "Conax specializes in multi-element TC/RTD penetrations — single fitting can pass 50+ thermocouple pairs through containment wall. Swagelok-style compression creates seal around individual wires. Used in BARC (Bhabha Atomic Research Centre) research reactors.",
   "category": "Specialty - Extreme",
-  "subcategory": "5F — NUCLEAR-RATED CONNECTORS"
+  "subcategory": "5F — NUCLEAR-RATED CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Mineral-Insulated Cable Termination (MI Cable)",
@@ -6027,7 +7302,9 @@
   "legacy": "No",
   "notes": "Copper-sheathed, MgO-insulated cable — inherently fireproof and radiation-hard. Termination requires pot seal to prevent moisture ingress into hygroscopic MgO insulation. Used for all nuclear safety circuits and Class 1E wiring. Also used in fire-rated building wiring per Indian NBC 2016.",
   "category": "Specialty - Extreme",
-  "subcategory": "5F — NUCLEAR-RATED CONNECTORS"
+  "subcategory": "5F — NUCLEAR-RATED CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Dinse (cross-ref from Phase 1)",
@@ -6045,7 +7322,14 @@
   "legacy": "No",
   "notes": "Cross-reference — main entry in Phase 1C.",
   "category": "Specialty - Extreme",
-  "subcategory": "5G — WELDING / HIGH-CURRENT PROCESS"
+  "subcategory": "5G — WELDING / HIGH-CURRENT PROCESS",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 1,
+   "pinMax": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Tweco / Lincoln Twist-Mate",
@@ -6063,7 +7347,9 @@
   "legacy": "No",
   "notes": "NOT cross-brand compatible — Tweco, Lincoln, Miller each have proprietary MIG gun connectors. Euro-style (cross-ref below) is the universal alternative.",
   "category": "Specialty - Extreme",
-  "subcategory": "5G — WELDING / HIGH-CURRENT PROCESS"
+  "subcategory": "5G — WELDING / HIGH-CURRENT PROCESS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Euro-Style MIG Connector (Dinse + gas)",
@@ -6081,7 +7367,14 @@
   "legacy": "No",
   "notes": "Combines Dinse power connector with gas and trigger wire connections in a standard format. Allows cross-brand MIG gun compatibility. European standard adopted globally.",
   "category": "Specialty - Extreme",
-  "subcategory": "5G — WELDING / HIGH-CURRENT PROCESS"
+  "subcategory": "5G — WELDING / HIGH-CURRENT PROCESS",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 1,
+   "pinMax": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "TIG Torch Connector (Dinse + gas + water)",
@@ -6099,7 +7392,14 @@
   "legacy": "No",
   "notes": "Water-cooled TIG torches have water supply and return lines in addition to power and gas. Torch adapters available for cross-brand compatibility.",
   "category": "Specialty - Extreme",
-  "subcategory": "5G — WELDING / HIGH-CURRENT PROCESS"
+  "subcategory": "5G — WELDING / HIGH-CURRENT PROCESS",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 1,
+   "pinMax": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Stud Welding Gun Connector",
@@ -6117,7 +7417,14 @@
   "legacy": "No",
   "notes": "Extremely high peak current for very short duration (3–1000ms). Gun connector must handle current pulse without overheating. Nelson and HBS are dominant stud welding equipment suppliers.",
   "category": "Specialty - Extreme",
-  "subcategory": "5G — WELDING / HIGH-CURRENT PROCESS"
+  "subcategory": "5G — WELDING / HIGH-CURRENT PROCESS",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 1,
+   "pinMax": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Spot Welding Electrode Holder / Shank",
@@ -6135,7 +7442,14 @@
   "legacy": "No",
   "notes": "Not a connector in traditional sense — electrodes are held by tapered shank in welding gun arm. RWMA Class 1/2/3 copper alloys. Electrode caps are consumable. Automotive body shops consume thousands of electrode caps per day.",
   "category": "Specialty - Extreme",
-  "subcategory": "5G — WELDING / HIGH-CURRENT PROCESS"
+  "subcategory": "5G — WELDING / HIGH-CURRENT PROCESS",
+  "geom": {
+   "draw": "circular",
+   "pinMin": 1,
+   "pinMax": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Stäubli CombiTac",
@@ -6153,7 +7467,9 @@
   "legacy": "No",
   "notes": "Modular frame accepts any combination of electrical, pneumatic, hydraulic, thermocouple, data, and fiber optic modules. Single lever connects everything simultaneously. Used on industrial robot tool changers (e.g., ABB, KUKA) for multi-media quick-change.",
   "category": "Specialty - Extreme",
-  "subcategory": "5H — ELECTRO-FLUID HYBRID CONNECTORS"
+  "subcategory": "5H — ELECTRO-FLUID HYBRID CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ATI Industrial Automation Tool Changer",
@@ -6171,7 +7487,9 @@
   "legacy": "No",
   "notes": "Master on robot wrist, Tool on end-effector. Pneumatic lock engages automatically — robot drops tool if air pressure is lost (fail-safe). Electrical, pneumatic, hydraulic, and signal modules snap into tool changer frame. Standard in automotive and general industrial robotics.",
   "category": "Specialty - Extreme",
-  "subcategory": "5H — ELECTRO-FLUID HYBRID CONNECTORS"
+  "subcategory": "5H — ELECTRO-FLUID HYBRID CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Harting Han-Modular",
@@ -6189,7 +7507,9 @@
   "legacy": "No",
   "notes": "Han-Modular system: standard outer housing accepts interchangeable inner modules. Hundreds of module combinations. Common on European machine tools — single connector carries machine power, control, Ethernet, and pneumatic. Also used for modular container data centers.",
   "category": "Specialty - Extreme",
-  "subcategory": "5H — ELECTRO-FLUID HYBRID CONNECTORS"
+  "subcategory": "5H — ELECTRO-FLUID HYBRID CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Harting Han B/E/D (Standard Industrial Rectangular)",
@@ -6207,7 +7527,9 @@
   "legacy": "No",
   "notes": "Classic industrial rectangular connector. Han B = standard, Han E = compact, Han D = high-density. Surface-mount and panel-mount housings. Standard for European machine building. Indian industrial panels commonly use Han B for motor connections.",
   "category": "Specialty - Extreme",
-  "subcategory": "5H — ELECTRO-FLUID HYBRID CONNECTORS"
+  "subcategory": "5H — ELECTRO-FLUID HYBRID CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ILME / Sibas / Weidmüller HDC (Han-compatible)",
@@ -6225,7 +7547,9 @@
   "legacy": "No",
   "notes": "ILME, Sibas (TE), and Weidmüller HDC are interchangeable with Harting Han — same insert patterns and housing dimensions per IEC 61984. Provides second-source options for panel builders.",
   "category": "Specialty - Extreme",
-  "subcategory": "5H — ELECTRO-FLUID HYBRID CONNECTORS"
+  "subcategory": "5H — ELECTRO-FLUID HYBRID CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Multi-Coupling Plate (Hydraulic + Electrical)",
@@ -6243,7 +7567,9 @@
   "legacy": "No",
   "notes": "Combines multiple flat-face hydraulic quick couplings with electrical connector in single docking plate. One lever connects all hydraulic and electrical lines simultaneously when attaching implement to machine. Critical for modern excavator quick-hitch systems.",
   "category": "Specialty - Extreme",
-  "subcategory": "5H — ELECTRO-FLUID HYBRID CONNECTORS"
+  "subcategory": "5H — ELECTRO-FLUID HYBRID CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "ISOBUS (ISO 11783) Connector",
@@ -6261,7 +7587,9 @@
   "legacy": "No",
   "notes": "Standard for tractor-implement communication. Carries CAN bus (250kbps) + power. Allows any ISOBUS-compliant implement to work with any ISOBUS tractor regardless of brand. Based on M12 9-pin variant. AEF (Agricultural Industry Electronics Foundation) manages certification.",
   "category": "Specialty - Extreme",
-  "subcategory": "5H — ELECTRO-FLUID HYBRID CONNECTORS"
+  "subcategory": "5H — ELECTRO-FLUID HYBRID CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "2.54mm Pin Header (0.1\" Generic)",
@@ -6279,7 +7607,16 @@
   "legacy": "No",
   "notes": "THE universal prototyping header. Through-hole. Gold or tin plated. Single-row and dual-row. Mates with Dupont/BLS crimp housings, jumper wires, or female header sockets. Samtec, Amphenol, Würth, and dozens of generics.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.54,
+   "pinMin": 1,
+   "pinMax": 40,
+   "rows": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Dupont / BLS 2.54mm Crimp Housing",
@@ -6297,7 +7634,16 @@
   "legacy": "No",
   "notes": "Technically not a single product — 'Dupont' is a colloquial name for generic 2.54mm crimp housings. Uses female crimp terminals on 0.64mm square pins. Requires crimping tool (Engineer PA-09 or SN-28B). Ubiquitous in maker/hobbyist world. No positive latch — pulls off easily.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.54,
+   "pinMin": 1,
+   "pinMax": 25,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "JST XH (cross-ref Phase 1)",
@@ -6315,7 +7661,16 @@
   "legacy": "No",
   "notes": "Cross-reference. Top-entry latch distinguishes from Dupont. PCB header is through-hole vertical or right-angle.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.5,
+   "pinMin": 2,
+   "pinMax": 20,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "JST PH (cross-ref Phase 1)",
@@ -6333,7 +7688,16 @@
   "legacy": "No",
   "notes": "Cross-reference. 2mm pitch. De facto LiPo standard.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.0,
+   "pinMin": 2,
+   "pinMax": 16,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "JST SH (cross-ref Phase 1 / Qwiic)",
@@ -6351,7 +7715,16 @@
   "legacy": "No",
   "notes": "Cross-reference. 1mm pitch. Qwiic/STEMMA QT standard.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.0,
+   "pinMin": 2,
+   "pinMax": 20,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "JST GH (cross-ref Phase 1 / Pixhawk)",
@@ -6369,7 +7742,16 @@
   "legacy": "No",
   "notes": "Cross-reference. 1.25mm pitch. Positive latch is the key differentiator from SH.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.25,
+   "pinMin": 2,
+   "pinMax": 12,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Molex PicoBlade (53047/53048)",
@@ -6387,7 +7769,16 @@
   "legacy": "No",
   "notes": "Molex's 1.25mm pitch wire-to-board. Competes with JST GH at same pitch but different latch style — NOT interchangeable despite same pitch. Very common inside laptop assemblies.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.25,
+   "pinMin": 2,
+   "pinMax": 17,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Molex CLIK-Mate (502585/502382)",
@@ -6405,7 +7796,16 @@
   "legacy": "No",
   "notes": "Audible and tactile click confirms full mating. Available in 1.5mm and 2.0mm pitch. Designed to replace less secure friction-only connectors in applications needing confirmed connection.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.5,
+   "pinMin": 2,
+   "pinMax": 15,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Molex Micro-Fit 3.0 (cross-ref Phase 1)",
@@ -6423,7 +7823,16 @@
   "legacy": "No",
   "notes": "Cross-reference. Dual-row power connector. PCB header available vertical and right-angle.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 3.0,
+   "pinMin": 2,
+   "pinMax": 24,
+   "rows": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Molex Mini-Fit Jr. (cross-ref Phase 1)",
@@ -6441,7 +7850,16 @@
   "legacy": "No",
   "notes": "Cross-reference. Highest-current common PCB power connector.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 4.2,
+   "pinMin": 2,
+   "pinMax": 44,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Molex Micro-Fit+ (172965)",
@@ -6459,7 +7877,16 @@
   "legacy": "No",
   "notes": "Upgraded Micro-Fit with higher current rating (12.5A vs 5A) at same 3mm pitch. Improved terminal design. Drop-in replacement for Micro-Fit 3.0 headers in new designs.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 3.0,
+   "pinMin": 2,
+   "pinMax": 24,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "TE Connectivity AMP CT (Compact Terminal)",
@@ -6477,7 +7904,16 @@
   "legacy": "No",
   "notes": "TPA = secondary lock that prevents terminal back-out. Critical for automotive reliability. Available sealed and unsealed. Used on many automotive ECU wire-to-board interfaces.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.0,
+   "pinMin": 2,
+   "pinMax": 30,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "TE Connectivity MTA-100 / MTA-156 (IDC)",
@@ -6495,7 +7931,16 @@
   "legacy": "Declining",
   "notes": "IDC = press wire into V-slot blade that cuts insulation and makes contact. Fast mass termination without stripping. MTA-100 for signal, MTA-156 for power. Being replaced by discrete crimp connectors.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.54,
+   "pinMin": 2,
+   "pinMax": 24,
+   "rows": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Hirose DF13 (1.25mm Wire-to-Board)",
@@ -6513,7 +7958,16 @@
   "legacy": "Declining (JST GH replacing)",
   "notes": "Was the Pixhawk standard before JST GH adoption. Hirose DF13 and JST GH are both 1.25mm pitch but NOT interchangeable — different housing and terminal geometry.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.25,
+   "pinMin": 2,
+   "pinMax": 15,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Hirose DF63 (3.96mm Power)",
@@ -6531,7 +7985,16 @@
   "legacy": "No",
   "notes": "Hirose's power connector at same pitch as JST VH (3.96mm) but different mating interface — NOT interchangeable with JST VH.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 3.96,
+   "pinMin": 1,
+   "pinMax": 6,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Würth WR-WTB Series",
@@ -6549,7 +8012,16 @@
   "legacy": "No",
   "notes": "Würth's comprehensive wire-to-board family spanning multiple pitches. Good alternative to JST with better datasheet availability and free samples. Similar quality tier.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.0,
+   "pinMin": 2,
+   "pinMax": 20,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Amass MR30/MR60 (Multi-Rotor Power)",
@@ -6567,7 +8039,9 @@
   "legacy": "No",
   "notes": "3-pin connector for 3-phase BLDC motors. Replaces soldered motor-to-ESC connections. Keyed to prevent phase swap. MR30 for sub-2000g drones, MR60 for larger.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Molex SL 70066/70107 (2.54mm Locking)",
@@ -6585,7 +8059,16 @@
   "legacy": "No",
   "notes": "The PC motherboard internal connector — 3-pin fan, 4-pin PWM fan, front panel audio, front panel USB 2.0, power LED, reset switch all use this family or close variants. Polarized via removed pin positions.",
   "category": "PCB",
-  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)"
+  "subcategory": "6A — PIN HEADERS / CRIMP HOUSINGS (WIRE-TO-BOARD)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.54,
+   "pinMin": 2,
+   "pinMax": 25,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Hirose DF12 (0.5mm Board-to-Board)",
@@ -6603,7 +8086,16 @@
   "legacy": "No",
   "notes": "Fine-pitch board-to-board with self-alignment feature. Stacking heights: 3mm to 14mm selectable. Used on many embedded computing modules and carrier boards.",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.5,
+   "pinMin": 10,
+   "pinMax": 80,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Hirose DF40 (0.4mm Board-to-Board)",
@@ -6621,7 +8113,16 @@
   "legacy": "No",
   "notes": "0.4mm pitch — one of the finest pitch board-to-board connectors available. Multiple stacking heights (1.5–4.0mm). Common inside smartphones.",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.4,
+   "pinMin": 12,
+   "pinMax": 100,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Hirose DF17 (0.5mm High-Speed B2B)",
@@ -6639,7 +8140,16 @@
   "legacy": "No",
   "notes": "Shielded variant for high-speed differential signals. Controlled impedance contacts for signal integrity at multi-Gbps rates.",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.5,
+   "pinMin": 20,
+   "pinMax": 80,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Samtec QTH/QSH (High-Speed Tiger Eye)",
@@ -6657,7 +8167,16 @@
   "legacy": "No",
   "notes": "Tiger Eye contact system — high reliability beryllium copper. VITA 57 FMC (FPGA Mezzanine Card) standard uses Samtec ASP-134604 (HPC) and ASP-134603 (LPC). Supports 28+ Gbps per lane. Standard on all major FPGA evaluation boards.",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.5,
+   "pinMin": 20,
+   "pinMax": 120,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Samtec QSE/QTE (Tiger Eye Low-Profile)",
@@ -6675,7 +8194,16 @@
   "legacy": "No",
   "notes": "Lower profile than QTH/QSH for space-constrained stacking. Same Tiger Eye contact reliability.",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.5,
+   "pinMin": 20,
+   "pinMax": 80,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Samtec SEARAY (High-Density Array)",
@@ -6693,7 +8221,16 @@
   "legacy": "No",
   "notes": "Massive pin count in array format. Up to 800 I/O in compact footprint. Used for high-pin-count FPGA/ASIC breakout. Not to be confused with BGA — these are separable connectors.",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.27,
+   "pinMin": 40,
+   "pinMax": 800,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Samtec MECF/MECA (Micro Edge Card)",
@@ -6711,7 +8248,16 @@
   "legacy": "No",
   "notes": "Micro edge card socket for thin PCB insertion. Alternative to M.2 in custom embedded designs. Samtec provides impedance-matched versions for high-speed signals.",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.5,
+   "pinMin": 20,
+   "pinMax": 120,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Molex SlimStack (0.4/0.5mm)",
@@ -6729,7 +8275,16 @@
   "legacy": "No",
   "notes": "Molex's fine-pitch B2B family competing with Hirose DF40/DF12. Multiple stacking heights available.",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.4,
+   "pinMin": 10,
+   "pinMax": 100,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Molex Board-to-Board Mezzanine (75/78 series)",
@@ -6747,7 +8302,16 @@
   "legacy": "No",
   "notes": "High-pin-count mezzanine for telecom and server applications. Supports 25Gbps+ per differential pair. Compression mount options for backplane applications.",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.8,
+   "pinMin": 60,
+   "pinMax": 440,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "TE Connectivity MULTI-BEAM (XLE/HD)",
@@ -6765,7 +8329,9 @@
   "legacy": "No",
   "notes": "High-current board-to-board using beam contacts instead of pins. Single beam carries 100A+. Used for power planes in server/telecom equipment. Eliminates need for cable harness between power boards.",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Amphenol FCI BergStak (0.4/0.5/0.8mm)",
@@ -6783,7 +8349,16 @@
   "legacy": "No",
   "notes": "Amphenol/FCI's comprehensive B2B family. Cross-competes with Hirose DF40/12 and Molex SlimStack at each pitch point.",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.4,
+   "pinMin": 10,
+   "pinMax": 120,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Nvidia Jetson Connector (Samtec 699-pin)",
@@ -6801,7 +8376,16 @@
   "legacy": "No",
   "notes": "Jetson Orin NX/Nano uses 260-pin SO-DIMM-style edge connector. AGX Orin uses 699-pin Samtec board-to-board. Carrier board design must follow Nvidia's impedance and layout guidelines for high-speed lanes (PCIe Gen 4, USB 3.2, CSI).",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.5,
+   "pinMin": 260,
+   "pinMax": 699,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SO-DIMM 260-pin (DDR4) / 262-pin (DDR5)",
@@ -6819,7 +8403,16 @@
   "legacy": "No",
   "notes": "JEDEC-standardized memory module form factor. DDR4 and DDR5 have different key notch positions — cannot be cross-inserted. DDR5 adds on-module voltage regulator (PMIC). Also used as compute module form factor (Jetson, Coral, some Raspberry Pi Compute Modules).",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.6,
+   "pinMin": 260,
+   "pinMax": 5,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DIMM 288-pin (DDR4) / 288-pin (DDR5)",
@@ -6837,7 +8430,16 @@
   "legacy": "No",
   "notes": "Full-size DIMM. DDR4 and DDR5 have different key positions. Server RDIMM/LRDIMM adds buffering. DDR5 dual-channel per DIMM (2×32-bit vs DDR4 1×64-bit). ECC variants for server/workstation.",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.85,
+   "pinMin": 288,
+   "pinMax": 5,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Raspberry Pi Compute Module Connector (Hirose DF40C-100)",
@@ -6855,7 +8457,16 @@
   "legacy": "No",
   "notes": "Two Hirose DF40C-100DS connectors per CM4 (200 total contacts). Carries GPIO, PCIe, USB, HDMI, CSI, DSI, Ethernet, power. CM5 uses same connector footprint for backward compatibility.",
   "category": "PCB",
-  "subcategory": "6B — BOARD-TO-BOARD STACKING"
+  "subcategory": "6B — BOARD-TO-BOARD STACKING",
+  "geom": {
+   "draw": "header",
+   "pitch": 0.4,
+   "pinMin": 100,
+   "pinMax": 50,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Phoenix PTSA/PTSM (Push-in PCB Terminal)",
@@ -6873,7 +8484,16 @@
   "legacy": "No",
   "notes": "Tool-free wire insertion — push stripped wire in, spring clamp grips. Lever or push-button for release. Faster than screw terminals for production wiring. SMD and THT variants.",
   "category": "PCB",
-  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)"
+  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.5,
+   "pinMin": 2,
+   "pinMax": 24,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Wago 2060/2061/2065 PCB SMD (cross-ref Phase 1)",
@@ -6891,7 +8511,16 @@
   "legacy": "No",
   "notes": "Cross-reference. SMD-mountable push-in for lighting industry.",
   "category": "PCB",
-  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)"
+  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)",
+  "geom": {
+   "draw": "header",
+   "pitch": 4.0,
+   "pinMin": 1,
+   "pinMax": 3,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Wago 2604/2606 PCB Terminal Block",
@@ -6909,7 +8538,16 @@
   "legacy": "No",
   "notes": "Lever-actuated cage clamp on PCB. Same lever mechanism as Wago 221 but in PCB-mount form. High-vibration resistance due to spring contact (no screw loosening).",
   "category": "PCB",
-  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)"
+  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)",
+  "geom": {
+   "draw": "header",
+   "pitch": 5.0,
+   "pinMin": 2,
+   "pinMax": 12,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Würth Elektronik WR-TBL Series",
@@ -6927,7 +8565,16 @@
   "legacy": "No",
   "notes": "Würth's comprehensive PCB terminal block range. Covers every standard pitch. Screw, rising cage, and spring cage variants. Rising cage is preferred over standard screw for stranded wire (won't splay strands). Free samples from Würth.",
   "category": "PCB",
-  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)"
+  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.54,
+   "pinMin": 2,
+   "pinMax": 24,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "TE Connectivity Buchanan PCB Terminal Block",
@@ -6945,7 +8592,16 @@
   "legacy": "Declining (Phoenix/Wago preferred)",
   "notes": "TE's legacy PCB terminal block line. Still available but new designs typically choose Phoenix COMBICON, Wago, or Würth for better availability and documentation.",
   "category": "PCB",
-  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)"
+  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.54,
+   "pinMin": 2,
+   "pinMax": 24,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Keystone / Eurostyle PCB Screw Terminal (generic)",
@@ -6963,7 +8619,16 @@
   "legacy": "No",
   "notes": "Ultra-low-cost generic PCB screw terminals. Often unbranded from Shenzhen. Adequate for low-vibration consumer applications. Blue or green housing typical. Available on AliExpress/LCSC in bulk.",
   "category": "PCB",
-  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)"
+  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)",
+  "geom": {
+   "draw": "header",
+   "pitch": 5.0,
+   "pinMin": 2,
+   "pinMax": 12,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Screwless/Lever PCB Terminal (various)",
@@ -6981,7 +8646,16 @@
   "legacy": "No",
   "notes": "Industry trend: screwless terminals replacing screw terminals on new industrial PCB designs. No screw loosening from vibration. Faster production wiring. Push-in or lever-operated variants.",
   "category": "PCB",
-  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)"
+  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)",
+  "geom": {
+   "draw": "header",
+   "pitch": 3.5,
+   "pinMin": 2,
+   "pinMax": 24,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "IDC Ribbon Cable Connector (2x5, 2x7, 2x10, 2x17, 2x20, 2x25)",
@@ -6999,7 +8673,16 @@
   "legacy": "Declining for data, alive for debug",
   "notes": "Insulation displacement onto flat ribbon cable. Red stripe = pin 1. Polarizing notch on header prevents reverse insertion. 10-pin (2×5) is standard for ARM SWD/JTAG debug (Segger J-Link, ST-Link). 20-pin ARM standard debug. 40-pin IDE is legacy.",
   "category": "PCB",
-  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)"
+  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.54,
+   "pinMin": 10,
+   "pinMax": 50,
+   "rows": 2
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Pogo Pin / Spring-Loaded Contact (PCB-mount)",
@@ -7017,7 +8700,9 @@
   "legacy": "No",
   "notes": "Spring-loaded pins for temporary or repeated contact. Bed-of-nails test fixtures use hundreds of pogo pins to test assembled PCBs. Also used as battery contacts in consumer devices. Mill-Max is the premium supplier.",
   "category": "PCB",
-  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)"
+  "subcategory": "6C — WIRE-TO-BOARD (INDUSTRIAL / SPRING / SCREWLESS)",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "PCIe CEM (cross-ref Phase 3)",
@@ -7035,7 +8720,16 @@
   "legacy": "No",
   "notes": "Cross-reference.",
   "category": "PCB",
-  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS"
+  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS",
+  "geom": {
+   "draw": "header",
+   "pitch": 1.0,
+   "pinMin": 36,
+   "pinMax": 164,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "M.2 (cross-ref Phase 3)",
@@ -7053,7 +8747,9 @@
   "legacy": "No",
   "notes": "Cross-reference.",
   "category": "PCB",
-  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS"
+  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "CompactPCI (cPCI) — 2mm Hard Metric",
@@ -7071,7 +8767,16 @@
   "legacy": "Partial legacy (CompactPCI Serial replacing)",
   "notes": "Based on Eurocard 3U/6U form factor. Hot-swap capable. Still deployed in Indian Railways signaling, ISRO ground stations, and telecom central offices. Being replaced by CompactPCI Serial (PCIe-based).",
   "category": "PCB",
-  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS"
+  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.0,
+   "pinMin": 47,
+   "pinMax": 5,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "CompactPCI Serial (CPCI-S)",
@@ -7089,7 +8794,9 @@
   "legacy": "No",
   "notes": "PCIe-based successor to parallel cPCI. Supports PCIe Gen 3, USB 3.0, SATA, Ethernet on backplane. Same 3U/6U Eurocard form factor for rack compatibility.",
   "category": "PCB",
-  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS"
+  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "VMEbus (DIN 41612)",
@@ -7107,7 +8814,16 @@
   "legacy": "Legacy (VPX replacing in mil)",
   "notes": "VMEbus was THE military/aerospace embedded computing standard for decades. DIN 41612 connector is the iconic 3-row 96-pin backplane connector. Still in service on many fielded military systems. Being replaced by VPX.",
   "category": "PCB",
-  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS"
+  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.54,
+   "pinMin": 96,
+   "pinMax": 5,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "VPX / OpenVPX (VITA 46/48)",
@@ -7125,7 +8841,9 @@
   "legacy": "No",
   "notes": "Successor to VME for military. High-speed serial backplane (PCIe Gen 3, 10GbE, Serial RapidIO, InfiniBand). Conduction-cooled variants (VITA 48) for sealed enclosures — no fans/air needed. OpenVPX (VITA 65) standardizes slot profiles. Used on Indian Navy Shivalik-class CMS and DRDO radar systems.",
   "category": "PCB",
-  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS"
+  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "VME64x / VXS (VITA 41)",
@@ -7143,7 +8861,9 @@
   "legacy": "Declining (VPX replacing)",
   "notes": "VME64x added power connectors and improved pin count. VXS added high-speed serial fabric to VME backplane. Bridging generation between VME and VPX.",
   "category": "PCB",
-  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS"
+  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "VITA 57 FMC/FMC+ (Samtec-based, cross-ref 6B)",
@@ -7161,7 +8881,9 @@
   "legacy": "No",
   "notes": "FPGA Mezzanine Card standard. LPC (Low Pin Count) for simpler I/O, HPC (High Pin Count) for multi-gigabit transceivers, FMC+ extends to 28Gbps+. Samtec Searay/QTH connectors. Standard on all major FPGA eval boards (Xilinx ZCU/Versal, Intel Agilex).",
   "category": "PCB",
-  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS"
+  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "PXI / PXIe (CompactPCI-based)",
@@ -7179,7 +8901,9 @@
   "legacy": "PXI legacy, PXIe current",
   "notes": "NI (now part of Emerson) PXI platform for modular test instruments. PXI = CompactPCI + timing/triggering. PXIe = CompactPCI Serial + timing/triggering. 3U form factor. Hundreds of instrument modules available: oscilloscopes, DMMs, signal generators, RF analyzers.",
   "category": "PCB",
-  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS"
+  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "PICMG 1.3 (SHB/SBC Backplane)",
@@ -7197,7 +8921,9 @@
   "legacy": "Declining (COM Express replacing)",
   "notes": "System Host Board standard — CPU card plugs into passive backplane. Allows CPU upgrade without changing I/O cards. Being replaced by COM Express modular SBCs in new designs.",
   "category": "PCB",
-  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS"
+  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "COM Express (Samtec/TE connectors)",
@@ -7215,7 +8941,9 @@
   "legacy": "No",
   "notes": "Computer-on-Module standard. CPU module with standard connector plugs into custom carrier board. Carrier has application-specific I/O, module has compute. Types: Mini (84×55mm), Compact (95×95mm), Basic (125×95mm). Allows CPU upgrade without carrier redesign. Intel and AMD processors.",
   "category": "PCB",
-  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS"
+  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SMARC (Smart Mobility Architecture)",
@@ -7233,7 +8961,9 @@
   "legacy": "No",
   "notes": "ARM-focused SoM standard (though x86 also possible). Uses MXM 3.0 connector (originally designed for mobile GPU modules). Smaller than COM Express. Popular for NXP i.MX8, Qualcomm, Rockchip, Nvidia Jetson alternative platforms.",
   "category": "PCB",
-  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS"
+  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Qseven (Q7)",
@@ -7251,7 +8981,9 @@
   "legacy": "No",
   "notes": "Smaller than SMARC (70×70mm). Same MXM connector family. Designed for ultra-compact, low-power embedded. x86 and ARM options.",
   "category": "PCB",
-  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS"
+  "subcategory": "6D — CARD EDGE / BACKPLANE / RACK SYSTEMS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SIM Card Socket (Nano/Micro/Mini)",
@@ -7269,7 +9001,9 @@
   "legacy": "No",
   "notes": "Nano-SIM (4FF) is current standard. eSIM (embedded) is replacing physical SIM in some devices. Push-push mechanism: push to insert, push again to eject. Some use tray (iPhone-style, board-soldered).",
   "category": "PCB",
-  "subcategory": "6E — SPECIALIZED PCB CONNECTORS"
+  "subcategory": "6E — SPECIALIZED PCB CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "SD/MicroSD Card Socket",
@@ -7287,7 +9021,9 @@
   "legacy": "No",
   "notes": "MicroSD is dominant. SD UHS-I: 104MB/s, UHS-II: 312MB/s (extra row of pins). SDIO variant carries peripheral I/O (WiFi, BT) instead of storage. RPi boot from MicroSD is the most common use case in embedded.",
   "category": "PCB",
-  "subcategory": "6E — SPECIALIZED PCB CONNECTORS"
+  "subcategory": "6E — SPECIALIZED PCB CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "USB Type-A PCB Socket (horizontal/vertical)",
@@ -7305,7 +9041,16 @@
   "legacy": "No",
   "notes": "Through-hole or SMD PCB mount. Shield tabs provide mechanical retention and grounding. USB 3.x socket (blue) has additional pin row at back.",
   "category": "PCB",
-  "subcategory": "6E — SPECIALIZED PCB CONNECTORS"
+  "subcategory": "6E — SPECIALIZED PCB CONNECTORS",
+  "geom": {
+   "draw": "header",
+   "pitch": 2.0,
+   "pinMin": 4,
+   "pinMax": 3,
+   "rows": 1
+  },
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "USB Type-C PCB Receptacle",
@@ -7323,7 +9068,9 @@
   "legacy": "No",
   "notes": "Mid-mount and top-mount PCB variants. CC pins require 5.1kΩ pulldown for basic sink (power consumer). For USB PD, dedicated PD controller IC required. 16-pin simplified variant available for USB 2.0-only applications.",
   "category": "PCB",
-  "subcategory": "6E — SPECIALIZED PCB CONNECTORS"
+  "subcategory": "6E — SPECIALIZED PCB CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "RJ45 PCB Jack (with integrated magnetics)",
@@ -7341,7 +9088,9 @@
   "legacy": "No",
   "notes": "Integrated magnetics (Bob Smith termination inside) simplify PCB design — eliminates external transformer. Tab-up and tab-down variants for different PCB orientations. LED indicators (green=link, amber=activity) integrated. PoE-rated jacks have reinforced contacts.",
   "category": "PCB",
-  "subcategory": "6E — SPECIALIZED PCB CONNECTORS"
+  "subcategory": "6E — SPECIALIZED PCB CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "DC Barrel Jack PCB Mount",
@@ -7359,7 +9108,9 @@
   "legacy": "No",
   "notes": "PCB-mount barrel jack. Third pin is normally-closed switch that opens when plug is inserted — can be used for automatic battery/external power switching. 2.1mm and 2.5mm center pin variants.",
   "category": "PCB",
-  "subcategory": "6E — SPECIALIZED PCB CONNECTORS"
+  "subcategory": "6E — SPECIALIZED PCB CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Coin Cell Battery Holder (CR2032/CR2025)",
@@ -7377,7 +9128,9 @@
   "legacy": "No",
   "notes": "Through-hole or SMD variants. Horizontal and vertical mounting. Critical detail: some holders have polarity protection, some don't — reverse insertion shorts the cell. CR2032 is the dominant size.",
   "category": "PCB",
-  "subcategory": "6E — SPECIALIZED PCB CONNECTORS"
+  "subcategory": "6E — SPECIALIZED PCB CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Battery Holder (AA/AAA/18650)",
@@ -7395,7 +9148,9 @@
   "legacy": "No",
   "notes": "PCB-mount or chassis-mount. 18650 holders critical for DIY battery packs and BMS projects. Keystone 1042/1043 series is industry standard for 18650.",
   "category": "PCB",
-  "subcategory": "6E — SPECIALIZED PCB CONNECTORS"
+  "subcategory": "6E — SPECIALIZED PCB CONNECTORS",
+  "datasheet": "",
+  "image": ""
  },
  {
   "name": "Blade Fuse PCB Holder (ATO/Mini)",
@@ -7413,6 +9168,8 @@
   "legacy": "No",
   "notes": "PCB-mount holder accepts standard automotive blade fuses. Through-hole or surface-mount. Allows field-replaceable fusing on PCBs without soldering.",
   "category": "PCB",
-  "subcategory": "6E — SPECIALIZED PCB CONNECTORS"
+  "subcategory": "6E — SPECIALIZED PCB CONNECTORS",
+  "datasheet": "",
+  "image": ""
  }
 ]

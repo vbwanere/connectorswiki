@@ -8,6 +8,25 @@ MAP = {
 }
 KEYS = ['name','family','application','useCases','voltage','current','pins','pitch',
         'maxLength','tempRange','standard','locking','legacy','notes']
+
+def classify(x):
+    """Derive drawing geometry from published dimensional data (pitch, pins, rows)."""
+    pitch = re.search(r'\d+\.?\d*', x['pitch'] or '')
+    pins  = re.findall(r'\d+', x['pins'] or '')
+    name  = x['name'].lower()
+    if pitch and pins:
+        rows = 2 if re.search(r'2x|dual.?row|2 row|idc|ribbon', name + x['notes'].lower()) else 1
+        return {"draw":"header","pitch":float(pitch.group()),
+                "pinMin":int(pins[0]),"pinMax":int(pins[-1]),"rows":rows}
+    if re.search(r'm8|m12|m16|m23|circular|mil-dtl|xlr|din|aviation|gx|bulgin|amphenol c16|ip67 circ', name):
+        n = int(pins[0]) if pins else 4
+        return {"draw":"circular","pinMin":n,"pinMax":int(pins[-1]) if pins else n}
+    if re.search(r'\bd[a-e]-?\d|d-sub|db-?\d|de-?9|dc-37|dd-50', name):
+        return {"draw":"dsub","pins":int(pins[0]) if pins else 9}
+    if re.search(r'xt30|xt60|xt90|bullet|banana|powerpole|deans|ec[35]', name):
+        return {"draw":"blade","pins":int(pins[0]) if pins else 2}
+    return None
+
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 out = []
 for f in sorted(glob.glob(os.path.join(root, "source_xlsx", "*.xlsx"))):
@@ -27,6 +46,10 @@ for f in sorted(glob.glob(os.path.join(root, "source_xlsx", "*.xlsx"))):
         d = {k: (str(v).strip() if v is not None else "") for k, v in zip(KEYS, r)}
         d["category"] = cat
         d["subcategory"] = sub
+        g = classify(d)
+        if g: d["geom"] = g
+        d["datasheet"] = ""
+        d["image"] = ""
         out.append(d)
 os.makedirs(os.path.join(root, "data"), exist_ok=True)
 with open(os.path.join(root, "data", "connectors.json"), "w") as fh:

@@ -1,8 +1,8 @@
-# ConnectorsWiki
+# Connectors Wiki
 
 An open, community-maintained reference of electrical connectors — ratings, pin
 counts, pitch, standards, temperature range, locking, and application notes.
-**412 connectors** across 6 categories: Power, Signal (Low & High Speed),
+**412 connectors** across 6 categories, **154 with generated to-scale drawings**: Power, Signal (Low & High Speed),
 RF/Fiber/Specialty, Specialty-Extreme, and PCB.
 
 The site is a single static page. No server, no build step, no database. It
@@ -14,28 +14,40 @@ anyone can contribute by editing one JSON file.
 
 ## Publish it (GitHub Pages) — one time
 
-1. Create a new **public** repo on GitHub, e.g. `connectorpedia`.
+1. Create a new **public** repo on GitHub, e.g. `connectorswiki`.
 2. Put these files at the repo root: `index.html`, `data/connectors.json`,
    `README.md`, `LICENSE`, `scripts/`.
 3. In `index.html`, set the `REPO` constant (near the bottom `<script>`) to
-   `"YOURUSER/connectorpedia"` so the Star/Contribute links point at your repo.
+   `"YOURUSER/connectorswiki"` so the Star/Contribute links point at your repo.
 4. Push:
    ```bash
    git init
    git add .
-   git commit -m "Initial connectorpedia"
+   git commit -m "Initial connectorswiki"
    git branch -M main
-   git remote add origin https://github.com/YOURUSER/connectorpedia.git
+   git remote add origin https://github.com/YOURUSER/connectorswiki.git
    git push -u origin main
    ```
 5. Repo → **Settings → Pages** → Source: **Deploy from a branch** → Branch:
    `main`, folder `/ (root)` → Save.
 6. Wait ~1 minute. Your site is live at
-   `https://YOURUSER.github.io/connectorpedia/`.
+   `https://YOURUSER.github.io/connectorswiki/`.
 
 Every push to `main` after that redeploys automatically.
 
 ---
+
+## Drawings
+
+Connectors with a numeric pitch and pin count get a **to-scale footprint drawn
+live in the browser** — pin-1 marker, pitch dimension, overall span, and a pin-count
+slider so a 4-way and a 20-way of the same family show their real dimensions.
+No image files, no licensing problem: the drawing is computed from the data.
+
+Circular, RF, and moulded connectors need hand-drawn SVGs — see
+[CONTRIBUTING.md](CONTRIBUTING.md). **Do not upload manufacturer photos or
+datasheet scans**; they're copyrighted. Original SVGs, your own photos, or
+explicitly free-licensed media only.
 
 ## How to contribute
 
