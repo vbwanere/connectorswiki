@@ -1,4 +1,4 @@
-# Connectorpedia
+# ConnectorsWiki
 
 An open, community-maintained reference of electrical connectors — ratings, pin
 counts, pitch, standards, temperature range, locking, and application notes.
