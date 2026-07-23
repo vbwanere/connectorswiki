@@ -272,6 +272,12 @@ function toggle(tr){
    (pitch, pin count, row count) — original vector output, to scale. */
 function drawPane(el,x){
   const g=x.geom;
+  if(x.image){
+    el.innerHTML=`<div class="drawhead"><span class="t">Mating face · contributed drawing</span></div>
+      <div class="canvas"><img src="${esc(x.image)}" alt="${esc(x.name)} mating face" style="width:100%;height:auto;display:block"></div>
+      <div class="scalenote">Original SVG — see CONTRIBUTING.md for drawing conventions.</div>`;
+    return;
+  }
   if(!g){
     el.innerHTML=`<div class="drawhead"><span class="t">Mating face</span></div>
       <div class="noimg"><b>No drawing yet</b>
@@ -316,8 +322,9 @@ function drawPane(el,x){
 function svgHeader(pitch,n,rows){
   const perRow=Math.ceil(n/rows), span=(perRow-1)*pitch;
   const S=Math.min(14,Math.max(4,220/Math.max(span,6)));  // px per mm
-  const padX=42,padY=34,rowGap=pitch*S;
-  const W=span*S+padX*2, H=padY*2+(rows-1)*rowGap+18;
+  const half=pitch*S*0.5;                 // half the body height
+  const padX=42, padY=half+26, rowGap=pitch*S;   // padY must clear the span dimension + its label
+  const W=span*S+padX*2, H=padY+(rows-1)*rowGap+half+34;
   const pin=Math.max(2.6,Math.min(5,pitch*S*0.26));
   let s=`<svg viewBox="0 0 ${W.toFixed(0)} ${H.toFixed(0)}" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,monospace">`;
   // body outline

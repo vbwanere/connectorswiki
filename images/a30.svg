@@ -1,0 +1,7 @@
+<svg width="223" height="141" viewBox="0 0 223 141" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,monospace">
+<title>A30 — mating face</title>
+<g transform="translate(54.6,0)">
+<path d="M23 26 H90.8 L99.8 35 V91.0 H14 V35 Z" fill="#f2f4f7" stroke="#1857a4" stroke-width="1.4"/><text x="56.9" y="18" font-size="8" fill="#8b949a" text-anchor="middle">chamfered corners = polarity key</text><circle cx="39.7" cy="61.8" r="7.2" fill="#fff" stroke="#1857a4" stroke-width="1.2"/><circle cx="74.1" cy="61.8" r="7.2" fill="#fff" stroke="#1857a4" stroke-width="1.2"/><circle cx="39.7" cy="61.8" r="3.2" fill="#b4322c"/><circle cx="74.1" cy="61.8" r="3.2" fill="#1857a4"/><text x="39.7" y="81.9" font-size="9.5" fill="#b4322c" text-anchor="middle">+</text><text x="74.1" y="81.9" font-size="9.5" fill="#1857a4" text-anchor="middle">−</text>
+</g>
+<text x="111.5" y="132.0" font-size="7.5" fill="#8b949a" text-anchor="middle">A30 · female = drone side, male = battery side</text>
+</svg>

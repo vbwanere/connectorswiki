@@ -1,0 +1,7 @@
+<svg width="218" height="158" viewBox="0 0 218 158" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,monospace">
+<title>PH2.0 (JST PH) — mating face</title>
+<g transform="translate(48.9,0)">
+<rect x="45.552" y="17" width="29.695999999999998" height="10" rx="1.5" fill="#e2e7ee" stroke="#1857a4" stroke-width="1.1"/><text x="60.4" y="13" font-size="8" fill="#8b949a" text-anchor="middle">latch</text><rect x="14" y="26" width="92.8" height="72.0" rx="1.5" fill="#f2f4f7" stroke="#1857a4" stroke-width="1.4"/><rect x="41.0" y="55.7" width="6.8" height="6.8" fill="#fff" stroke="#1857a4" stroke-width="1.1"/><rect x="73.0" y="55.7" width="6.8" height="6.8" fill="#fff" stroke="#1857a4" stroke-width="1.1"/><g stroke="#a8621a" stroke-width=".9"><path d="M44.4 103.0v7M76.4 103.0v7M44.4 106.5H76.4"/></g><text x="60.4" y="120.0" font-size="8.5" fill="#a8621a" text-anchor="middle">2.00 mm</text>
+</g>
+<text x="109.2" y="149.0" font-size="7.5" fill="#8b949a" text-anchor="middle">PH2.0 (JST PH) · 2.00 mm pitch · crimped pins</text>
+</svg>

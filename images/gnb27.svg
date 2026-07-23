@@ -1,0 +1,7 @@
+<svg width="223" height="154" viewBox="0 0 223 154" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,monospace">
+<title>GNB27 — mating face</title>
+<g transform="translate(44.2,0)">
+<path d="M23 26 H111.6 L120.6 35 V104.0 H14 V35 Z" fill="#f2f4f7" stroke="#1857a4" stroke-width="1.4"/><circle cx="46.0" cy="68.9" r="8.1" fill="#fff" stroke="#1857a4" stroke-width="1.2"/><circle cx="88.6" cy="68.9" r="8.1" fill="#fff" stroke="#1857a4" stroke-width="1.2"/><circle cx="46.0" cy="68.9" r="3.6" fill="#b4322c"/><circle cx="88.6" cy="68.9" r="3.6" fill="#1857a4"/><text x="46.0" y="90.0" font-size="9.5" fill="#b4322c" text-anchor="middle">+</text><text x="88.6" y="90.0" font-size="9.5" fill="#1857a4" text-anchor="middle">−</text>
+</g>
+<text x="111.5" y="145.0" font-size="7.5" fill="#8b949a" text-anchor="middle">GNB27 · largest of the 1S group · pair ~0.82 g</text>
+</svg>

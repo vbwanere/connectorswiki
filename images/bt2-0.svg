@@ -1,0 +1,7 @@
+<svg width="241" height="135" viewBox="0 0 241 135" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,monospace">
+<title>BT2.0 — mating face</title>
+<g transform="translate(64.5,0)">
+<g stroke="#a8621a" stroke-width=".9"><path d="M14 20V12M98.0 20V12M14 16H98.0"/></g><text x="56.0" y="10" font-size="9" fill="#a8621a" text-anchor="middle">6.0 mm</text><rect x="14" y="26" width="84.0" height="58.800000000000004" rx="2.5" fill="#f2f4f7" stroke="#1857a4" stroke-width="1.4"/><path d="M14 75.80000000000001 q42.0 5 84.0 0" fill="none" stroke="#1857a4" stroke-width=".7" opacity=".5"/><circle cx="39.2" cy="55.4" r="7.0" fill="#fff" stroke="#1857a4" stroke-width="1.2"/><circle cx="72.8" cy="55.4" r="7.0" fill="#fff" stroke="#1857a4" stroke-width="1.2"/><circle cx="39.2" cy="55.4" r="3" fill="#b4322c"/><circle cx="72.8" cy="55.4" r="3" fill="#1857a4"/><text x="39.2" y="75.4" font-size="9.5" fill="#b4322c" text-anchor="middle">+</text><text x="72.8" y="75.4" font-size="9.5" fill="#1857a4" text-anchor="middle">−</text>
+</g>
+<text x="120.5" y="125.8" font-size="7.5" fill="#8b949a" text-anchor="middle">BT2.0 · 6.0 x 4.2 mm face · 1.0 mm banana contacts</text>
+</svg>
