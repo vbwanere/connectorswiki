@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Connectorpedia — an open electrical connector reference</title>
+<meta name="description" content="An open, community-maintained reference of electrical connectors: ratings, pinout, standards, and application notes.">
+<style>
+  :root{
+    --bg:#0e1116; --panel:#161b22; --panel2:#1c232d; --line:#2a323d;
+    --ink:#e6edf3; --dim:#9aa7b4; --faint:#6b7885;
+    --accent:#4cc2ff; --accent2:#ffb454; --legacy:#f97583; --ok:#5ad48a;
+    --mono:"SFMono-Regular",ui-monospace,"Cascadia Mono","Roboto Mono",Menlo,Consolas,monospace;
+    --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.45;-webkit-font-smoothing:antialiased}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+
+  header{border-bottom:1px solid var(--line);background:linear-gradient(180deg,#12171e,#0e1116);position:sticky;top:0;z-index:20}
+  .bar{max-width:1400px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+  .logo{font-family:var(--mono);font-weight:700;font-size:17px;letter-spacing:-.5px;white-space:nowrap}
+  .logo b{color:var(--accent)}
+  .tag{color:var(--faint);font-size:12px;font-family:var(--mono)}
+  .grow{flex:1}
+  .ghlink{border:1px solid var(--line);padding:6px 12px;border-radius:6px;color:var(--dim);font-size:12.5px;font-family:var(--mono)}
+  .ghlink:hover{border-color:var(--accent);color:var(--ink);text-decoration:none}
+
+  .controls{max-width:1400px;margin:0 auto;padding:14px 20px 6px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+  .search{flex:1;min-width:260px;position:relative}
+  .search input{width:100%;background:var(--panel);border:1px solid var(--line);color:var(--ink);
+    padding:11px 14px 11px 38px;border-radius:8px;font-size:14px;font-family:var(--sans);outline:none}
+  .search input:focus{border-color:var(--accent)}
+  .search svg{position:absolute;left:12px;top:11px;width:16px;height:16px;stroke:var(--faint);fill:none}
+  select{background:var(--panel);border:1px solid var(--line);color:var(--ink);padding:10px 12px;border-radius:8px;font-size:13px;font-family:var(--sans);outline:none;cursor:pointer}
+  select:focus{border-color:var(--accent)}
+  .count{color:var(--faint);font-family:var(--mono);font-size:12px;white-space:nowrap}
+
+  .chips{max-width:1400px;margin:0 auto;padding:6px 20px 12px;display:flex;gap:8px;flex-wrap:wrap}
+  .chip{border:1px solid var(--line);background:var(--panel);color:var(--dim);padding:6px 12px;border-radius:20px;
+    font-size:12.5px;font-family:var(--mono);cursor:pointer;user-select:none}
+  .chip:hover{border-color:var(--accent)}
+  .chip.on{background:var(--accent);color:#04121b;border-color:var(--accent);font-weight:600}
+
+  main{max-width:1400px;margin:0 auto;padding:4px 20px 60px}
+  .tablewrap{border:1px solid var(--line);border-radius:10px;overflow:auto;background:var(--panel)}
+  table{border-collapse:collapse;width:100%;min-width:1050px}
+  thead th{position:sticky;top:0;background:var(--panel2);text-align:left;font-size:11px;letter-spacing:.5px;
+    text-transform:uppercase;color:var(--dim);padding:11px 12px;border-bottom:1px solid var(--line);white-space:nowrap;cursor:pointer;user-select:none;z-index:2}
+  thead th:hover{color:var(--ink)}
+  thead th .ar{color:var(--accent);font-size:10px}
+  tbody tr{border-bottom:1px solid var(--line);cursor:pointer}
+  tbody tr:hover{background:var(--panel2)}
+  td{padding:10px 12px;vertical-align:top;font-size:13px}
+  td.name{font-weight:600;white-space:nowrap}
+  td.mono{font-family:var(--mono);color:var(--dim);white-space:nowrap}
+  td.app{color:var(--dim);max-width:240px}
+  .badge{display:inline-block;font-family:var(--mono);font-size:10.5px;padding:2px 7px;border-radius:4px;border:1px solid var(--line);color:var(--dim);white-space:nowrap}
+  .legacy-yes{color:var(--legacy);border-color:var(--legacy)}
+  .legacy-dec{color:var(--accent2);border-color:#5c4a1f}
+  .legacy-no{color:var(--ok);border-color:#274b39}
+
+  /* detail row */
+  .detail td{background:#10161d;padding:0}
+  .detail .inner{padding:16px 18px;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px 26px}
+  .field .k{font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--faint);font-family:var(--mono);margin-bottom:3px}
+  .field .v{font-size:13.5px;color:var(--ink)}
+  .field.wide{grid-column:1/-1}
+  .field.wide .v{color:var(--dim)}
+
+  .empty{padding:60px 20px;text-align:center;color:var(--faint)}
+  .empty b{color:var(--ink);display:block;margin-bottom:6px;font-size:15px}
+
+  footer{border-top:1px solid var(--line);color:var(--faint);font-size:12.5px}
+  .fbar{max-width:1400px;margin:0 auto;padding:22px 20px;display:flex;gap:20px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+  .fbar a{font-family:var(--mono)}
+
+  @media(max-width:600px){
+    .bar{gap:10px}.logo{font-size:15px}.tag{display:none}
+    td.app{display:none}thead th.app{display:none}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <span class="logo"><b>&gt;</b> Connectorpedia</span>
+    <span class="tag">// open electrical-connector reference</span>
+    <span class="grow"></span>
+    <a class="ghlink" id="ghtop" href="#">★ Star / Contribute on GitHub</a>
+  </div>
+  <div class="controls">
+    <div class="search">
+      <svg viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="q" type="search" placeholder="Search name, family, use case, standard, notes…" autocomplete="off">
+    </div>
+    <select id="sub"><option value="">All subcategories</option></select>
+    <select id="leg">
+      <option value="">Status: all</option>
+      <option value="current">Current only</option>
+      <option value="declining">Declining only</option>
+      <option value="legacy">Legacy only</option>
+    </select>
+    <span class="count" id="count">—</span>
+  </div>
+  <div class="chips" id="chips"></div>
+</header>
+
+<main>
+  <div class="tablewrap">
+    <table>
+      <thead><tr id="head"></tr></thead>
+      <tbody id="body"></tbody>
+    </table>
+  </div>
+  <div class="empty" id="empty" style="display:none">
+    <b>Nothing matches that filter.</b>
+    Clear the search or pick a different category.
+  </div>
+</main>
+
+<footer>
+  <div class="fbar">
+    <span id="fcount">Loading…</span>
+    <span>Found an error or a missing part? <a id="ghbot" href="#">Open an issue or a pull request →</a></span>
+  </div>
+</footer>
+
+<script>
+// ---- CONFIG: set this to your repo once, used for the GitHub links ----
+const REPO = "vbwanere/connectorswiki";
+document.querySelectorAll("#ghtop,#ghbot").forEach(a=>a.href="https://github.com/"+REPO);
+
+const COLS = [
+  {k:"name",  label:"Connector",   cls:"name"},
+  {k:"family",label:"Family",      cls:"mono"},
+  {k:"application",label:"Application", cls:"app"},
+  {k:"voltage",label:"Voltage",    cls:"mono"},
+  {k:"current",label:"Current",    cls:"mono"},
+  {k:"pins",  label:"Pins",        cls:"mono"},
+  {k:"pitch", label:"Pitch mm",    cls:"mono"},
+  {k:"tempRange",label:"Temp °C",  cls:"mono"},
+  {k:"legacy",label:"Status",      cls:"mono"},
+];
+const CATS = ["Power","Signal - Low Speed","Signal - High Speed","RF / Fiber / Specialty","Specialty - Extreme","PCB"];
+
+let DATA=[], view=[], sortKey="name", sortDir=1, activeCat="", openRow=null;
+const $=s=>document.querySelector(s);
+
+fetch("data/connectors.json")
+  .then(r=>{if(!r.ok)throw new Error(r.status);return r.json()})
+  .then(d=>{DATA=d;init()})
+  .catch(e=>{$("#body").innerHTML=`<tr><td colspan="9" class="empty"><b>Couldn't load data/connectors.json</b>${e}</td></tr>`});
+
+function init(){
+  // header
+  $("#head").innerHTML = COLS.map(c=>`<th data-k="${c.k}" class="${c.cls==='app'?'app':''}">${c.label} <span class="ar" data-ar="${c.k}"></span></th>`).join("");
+  $("#head").querySelectorAll("th").forEach(th=>th.onclick=()=>setSort(th.dataset.k));
+  // category chips
+  $("#chips").innerHTML = `<span class="chip on" data-cat="">All · ${DATA.length}</span>` +
+    CATS.map(c=>`<span class="chip" data-cat="${c}">${c} · ${DATA.filter(x=>x.category===c).length}</span>`).join("");
+  $("#chips").querySelectorAll(".chip").forEach(ch=>ch.onclick=()=>{
+    activeCat=ch.dataset.cat;
+    $("#chips").querySelectorAll(".chip").forEach(x=>x.classList.toggle("on",x===ch));
+    fillSub(); render();
+  });
+  $("#q").oninput=render; $("#sub").onchange=render; $("#leg").onchange=render;
+  fillSub(); render();
+  $("#fcount").textContent = DATA.length+" connectors across "+CATS.length+" categories — community maintained.";
+}
+
+function fillSub(){
+  const pool = activeCat?DATA.filter(x=>x.category===activeCat):DATA;
+  const subs=[...new Set(pool.map(x=>x.subcategory).filter(Boolean))].sort();
+  $("#sub").innerHTML='<option value="">All subcategories</option>'+subs.map(s=>`<option>${s}</option>`).join("");
+}
+
+function setSort(k){ if(sortKey===k)sortDir*=-1; else{sortKey=k;sortDir=1;} render(); }
+
+function render(){
+  const q=$("#q").value.trim().toLowerCase();
+  const sub=$("#sub").value, leg=$("#leg").value;
+  view=DATA.filter(x=>{
+    if(activeCat && x.category!==activeCat)return false;
+    if(sub && x.subcategory!==sub)return false;
+    if(leg && status(x.legacy).cls!==leg)return false;
+    if(q){
+      const hay=(x.name+" "+x.family+" "+x.application+" "+x.useCases+" "+x.standard+" "+x.notes+" "+x.subcategory).toLowerCase();
+      if(!hay.includes(q))return false;
+    }
+    return true;
+  });
+  view.sort((a,b)=>{
+    let A=(a[sortKey]||"").toString(), B=(b[sortKey]||"").toString();
+    const nA=parseFloat(A), nB=parseFloat(B);
+    if(!isNaN(nA)&&!isNaN(nB)&&A.replace(/[\d.\s]/g,"")===""&&B.replace(/[\d.\s]/g,"")==="")return (nA-nB)*sortDir;
+    return A.localeCompare(B)*sortDir;
+  });
+  paint();
+}
+
+function paint(){
+  $("#count").textContent = view.length+" shown";
+  $("#empty").style.display = view.length?"none":"block";
+  $("[data-ar='"+sortKey+"']");
+  document.querySelectorAll(".ar").forEach(s=>s.textContent="");
+  const ar=document.querySelector("[data-ar='"+sortKey+"']"); if(ar)ar.textContent=sortDir>0?"▲":"▼";
+  const rows=view.map((x,i)=>{
+    const st=status(x.legacy);
+    const cells=COLS.map(c=>{
+      if(c.k==="legacy")return `<td class="mono"><span class="badge ${st.badge}" title="${esc(x.legacy||'')}">${st.label}</span></td>`;
+      let v=x[c.k]||"—";
+      return `<td class="${c.cls}">${esc(v)}</td>`;
+    }).join("");
+    return `<tr data-i="${i}">${cells}</tr>`;
+  }).join("");
+  $("#body").innerHTML=rows; openRow=null;
+  $("#body").querySelectorAll("tr").forEach(tr=>tr.onclick=()=>toggle(tr));
+}
+
+function toggle(tr){
+  const i=+tr.dataset.i, x=view[i];
+  const next=tr.nextElementSibling;
+  if(next && next.classList.contains("detail")){next.remove();return;}
+  document.querySelectorAll(".detail").forEach(d=>d.remove());
+  const f=(k,l)=> x[k]?`<div class="field"><div class="k">${l}</div><div class="v">${esc(x[k])}</div></div>`:"";
+  const w=(k,l)=> x[k]?`<div class="field wide"><div class="k">${l}</div><div class="v">${esc(x[k])}</div></div>`:"";
+  const html=`<tr class="detail"><td colspan="${COLS.length}"><div class="inner">
+    ${f("category","Category")}${f("subcategory","Subcategory")}${f("pitch","Pitch (mm)")}
+    ${f("maxLength","Max recommended length")}${f("standard","Relevant standard")}${f("locking","Locking mechanism")}
+    ${w("useCases","Typical use cases")}${w("notes","Notes")}
+  </div></td></tr>`;
+  tr.insertAdjacentHTML("afterend",html);
+}
+
+function status(raw){
+  const s=(raw||"").trim().toLowerCase();
+  if(!s || s.startsWith("no")) return {cls:"current", label:"CURRENT", badge:"legacy-no"};
+  if(/^(declin|becoming|partial|transition|.*legacy, |pxi legacy)/.test(s) || s.includes("replacing")||s.includes("migrating"))
+    return {cls:"declining", label:"DECLINING", badge:"legacy-dec"};
+  return {cls:"legacy", label:"LEGACY", badge:"legacy-yes"};
+}
+function esc(s){return String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));}
+</script>
+</body>
+</html>
