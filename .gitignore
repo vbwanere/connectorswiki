@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 .DS_Store
 /.vscode
+images/local/
+data/image_candidates.json

@@ -1,0 +1,14 @@
+{
+ "_comment": "Verified manufacturer datasheet/product URLs. Each was confirmed to resolve, not recalled from memory. Apply with: python scripts/apply_datasheets.py",
+ "JST XH": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/xh-connector/",
+ "JST XH (cross-ref Phase 1)": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/xh-connector/",
+ "JST PH": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/ph-connector/",
+ "JST PH (cross-ref Phase 1)": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/ph-connector/",
+ "JST GH": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/gh-connector/",
+ "JST GH (cross-ref Phase 1 / Pixhawk)": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/gh-connector/",
+ "JST VH": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/vh-connector/",
+ "Molex Micro-Fit 3.0": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/productspecificationpdf/203/203951/2039510000-PS-000.pdf",
+ "Molex Micro-Fit 3.0 (cross-ref Phase 1)": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/productspecificationpdf/203/203951/2039510000-PS-000.pdf",
+ "Hirose DF13 (1.25mm Wire-to-Board)": "https://www.hirose.com/product/series/DF13",
+ "Hirose DF40 (0.4mm Board-to-Board)": "https://www.hirose.com/en/product/series/DF40"
+}

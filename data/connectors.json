@@ -23,7 +23,7 @@
    "pinMax": 20,
    "rows": 1
   },
-  "datasheet": "",
+  "datasheet": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/xh-connector/",
   "image": ""
  },
  {
@@ -50,7 +50,7 @@
    "pinMax": 16,
    "rows": 1
   },
-  "datasheet": "",
+  "datasheet": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/vh-connector/",
   "image": ""
  },
  {
@@ -77,7 +77,7 @@
    "pinMax": 16,
    "rows": 1
   },
-  "datasheet": "",
+  "datasheet": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/ph-connector/",
   "image": ""
  },
  {
@@ -131,7 +131,7 @@
    "pinMax": 12,
    "rows": 1
   },
-  "datasheet": "",
+  "datasheet": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/gh-connector/",
   "image": ""
  },
  {
@@ -259,7 +259,7 @@
    "pinMax": 24,
    "rows": 2
   },
-  "datasheet": "",
+  "datasheet": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/productspecificationpdf/203/203951/2039510000-PS-000.pdf",
   "image": ""
  },
  {
@@ -7669,7 +7669,7 @@
    "pinMax": 20,
    "rows": 1
   },
-  "datasheet": "",
+  "datasheet": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/xh-connector/",
   "image": ""
  },
  {
@@ -7696,7 +7696,7 @@
    "pinMax": 16,
    "rows": 1
   },
-  "datasheet": "",
+  "datasheet": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/ph-connector/",
   "image": ""
  },
  {
@@ -7750,7 +7750,7 @@
    "pinMax": 12,
    "rows": 1
   },
-  "datasheet": "",
+  "datasheet": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/gh-connector/",
   "image": ""
  },
  {
@@ -7831,7 +7831,7 @@
    "pinMax": 24,
    "rows": 2
   },
-  "datasheet": "",
+  "datasheet": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/productspecificationpdf/203/203951/2039510000-PS-000.pdf",
   "image": ""
  },
  {
@@ -7966,7 +7966,7 @@
    "pinMax": 15,
    "rows": 1
   },
-  "datasheet": "",
+  "datasheet": "https://www.hirose.com/product/series/DF13",
   "image": ""
  },
  {
@@ -8121,7 +8121,7 @@
    "pinMax": 100,
    "rows": 1
   },
-  "datasheet": "",
+  "datasheet": "https://www.hirose.com/en/product/series/DF40",
   "image": ""
  },
  {
@@ -9173,24 +9173,27 @@
   "image": ""
  },
  {
- "name": "BT2.0",
- "family": "BetaFPV BT2.0",
- "application": "1S FPV drone battery power",
- "useCases": "1S brushless tiny whoops (Meteor65/75, Air65, Cetus), 1S FC pigtails, retrofit of PH2.0 whoops",
- "voltage": "4.35V (1S LiHV)",
- "current": "9A cont. / 15A burst (mfr claim)",
- "pins": "2",
- "pitch": "—",
- "maxLength": "< 150mm pigtail",
- "tempRange": "-20 to +60",
- "standard": "— (proprietary)",
- "locking": "Friction fit, keyed housing",
- "legacy": "No",
- "notes": "BetaFPV proprietary, introduced 2019 to fix PH2.0 voltage sag. 1.0mm solid banana contacts instead of crimped pins. Male 6.0x4.2x10.5mm / 0.34g; female 6.0x4.2x8.3mm / 0.24g. Pigtail: blue = positive, white = negative. Independent testing at 12A found BT2.0, A30, GNB27 and XT30 within noise of each other; only PH2.0 underperformed.",
- "category": "Power",
- "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
- "datasheet": "https://betafpv.com/products/bt2-0-1s-whoop-cable-pigtail",
- "image": "images/bt2-0.svg",
- "geom": { "draw": "blade", "pins": 2 }
-}
+  "name": "BT2.0",
+  "family": "BetaFPV BT2.0",
+  "application": "1S FPV drone battery power",
+  "useCases": "1S brushless tiny whoops (Meteor65/75, Air65, Cetus), 1S FC pigtails, retrofit of PH2.0 whoops",
+  "voltage": "4.35V (1S LiHV)",
+  "current": "9A cont. / 15A burst (mfr claim)",
+  "pins": "2",
+  "pitch": "—",
+  "maxLength": "< 150mm pigtail",
+  "tempRange": "-20 to +60",
+  "standard": "— (proprietary)",
+  "locking": "Friction fit, keyed housing",
+  "legacy": "No",
+  "notes": "BetaFPV proprietary, introduced 2019 to fix PH2.0 voltage sag. 1.0mm solid banana contacts instead of crimped pins. Male 6.0x4.2x10.5mm / 0.34g; female 6.0x4.2x8.3mm / 0.24g. Pigtail: blue = positive, white = negative. Independent testing at 12A found BT2.0, A30, GNB27 and XT30 within noise of each other; only PH2.0 underperformed.",
+  "category": "Power",
+  "subcategory": "1A — LOW VOLTAGE DC (≤48V)",
+  "datasheet": "https://betafpv.com/products/bt2-0-1s-whoop-cable-pigtail",
+  "image": "images/bt2-0.svg",
+  "geom": {
+   "draw": "blade",
+   "pins": 2
+  }
+ }
 ]

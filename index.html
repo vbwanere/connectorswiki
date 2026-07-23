@@ -272,10 +272,18 @@ function toggle(tr){
    (pitch, pin count, row count) — original vector output, to scale. */
 function drawPane(el,x){
   const g=x.geom;
-  if(x.image){
-    el.innerHTML=`<div class="drawhead"><span class="t">Mating face · contributed drawing</span></div>
-      <div class="canvas"><img src="${esc(x.image)}" alt="${esc(x.name)} mating face" style="width:100%;height:auto;display:block"></div>
-      <div class="scalenote">Original SVG — see CONTRIBUTING.md for drawing conventions.</div>`;
+  const slug = x.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  if(x.image || x.localImage){
+    const c=x.imageCredit;
+    const primary = x.localImage || x.image;
+    const fallback = x.image || '';
+    const credit = c ? `${esc(c.author)} · ${esc(c.license)} · <a href="${esc(c.source)}" target="_blank" rel="noopener">source</a>`
+                     : `Original SVG — see CONTRIBUTING.md`;
+    el.innerHTML=`<div class="drawhead"><span class="t">Mating face</span></div>
+      <div class="canvas"><img src="${esc(primary)}" alt="${esc(x.name)}" loading="lazy"
+        onerror="this.onerror=null;this.src='${esc(fallback)}'"
+        style="width:100%;height:auto;display:block"></div>
+      <div class="scalenote">${credit}</div>`;
     return;
   }
   if(!g){
